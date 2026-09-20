@@ -29,21 +29,24 @@ jobs:
           set -e
           rm -rf _site _unpacked
           mkdir _site _unpacked
-          ZIP_FILE=$(find . -maxdepth 1 -type f -name 'keiba-*.zip' | head -1)
-          if [ -n "$ZIP_FILE" ]; then
-            echo "Using $ZIP_FILE"
+          if [ -f "KEIBA-DATA-LAB-v13.zip" ]; then
+            ZIP_FILE="KEIBA-DATA-LAB-v13.zip"
+          elif [ -f "KEIBA-DATA-LAB-v13-FINAL.zip" ]; then
+            ZIP_FILE="KEIBA-DATA-LAB-v13-FINAL.zip"
+          else
+            ZIP_FILE=$(find . -maxdepth 1 -type f -iname '*v13*.zip' | head -1)
+          fi
+          if [ -n "$ZIP_FILE" ] && [ -f "$ZIP_FILE" ]; then
+            echo "Deploying $ZIP_FILE"
             unzip -q "$ZIP_FILE" -d _unpacked
             SITE_DIR=$(find _unpacked -type f -name index.html -printf '%h\n' | head -1)
             if [ -z "$SITE_DIR" ]; then
-              echo "No index.html found in ZIP."
+              echo "No index.html found in v13 ZIP."
               exit 1
             fi
             cp -a "$SITE_DIR"/. _site/
-          elif [ -f index.html ]; then
-            cp -a . _site/
-            rm -rf _site/.git _site/.github
           else
-            echo "No site ZIP or index.html found."
+            echo "v13 ZIP not found."
             exit 1
           fi
       - name: Setup Pages
