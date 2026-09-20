@@ -59,4 +59,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# Redeploy after enabling public GitHub Pages
+# Redeploy after enabling GitHub Actions as Pages source
