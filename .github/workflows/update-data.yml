@@ -3,10 +3,10 @@ name: Update verified JRA data
 on:
   workflow_dispatch:
     inputs:
-      year:
-        description: "JRA result year"
+      years:
+        description: "JRA result years (comma-separated)"
         required: true
-        default: "2026"
+        default: "2024,2025,2026"
       limit:
         description: "PDF limit (0 = all)"
         required: true
@@ -36,10 +36,10 @@ jobs:
       - name: Fetch and rebuild verified data
         shell: bash
         run: |
-          YEAR="${{ github.event.inputs.year || '2026' }}"
+          YEARS="${{ github.event.inputs.years || '2024,2025,2026' }}"
           LIMIT="${{ github.event.inputs.limit || '0' }}"
           cd site
-          python update_site.py --fetch --year "$YEAR" --limit "$LIMIT" --base-url "https://nekonoameri.github.io/keiba-data-lab/"
+          python update_site.py --fetch --years "$YEARS" --limit "$LIMIT" --base-url "https://nekonoameri.github.io/keiba-data-lab/"
       - name: Commit generated data and pages
         shell: bash
         run: |
