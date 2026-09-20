@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """JRA annual-results PDF -> normalized race/runner CSV.
-Runner popularity is derived from official win odds (ascending; dead-heats share rank semantics are rare and kept stable).
+Runner popularity is left blank unless an official popularity value is explicitly verified; odds are never converted into an asserted official popularity rank.
 Designed so the acquisition source can later be swapped without changing DB/UI.
 """
 from __future__ import annotations
