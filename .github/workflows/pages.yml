@@ -27,17 +27,23 @@ jobs:
         shell: bash
         run: |
           set -e
-          rm -rf _site
-          mkdir _site
-          if [ -f keiba-prototype-v13-final-stage.zip ]; then
-            unzip -q keiba-prototype-v13-final-stage.zip -d _unpacked
+          rm -rf _site _unpacked
+          mkdir _site _unpacked
+          ZIP_FILE=$(find . -maxdepth 1 -type f -name 'keiba-*.zip' | head -1)
+          if [ -n "$ZIP_FILE" ]; then
+            echo "Using $ZIP_FILE"
+            unzip -q "$ZIP_FILE" -d _unpacked
             SITE_DIR=$(find _unpacked -type f -name index.html -printf '%h\n' | head -1)
+            if [ -z "$SITE_DIR" ]; then
+              echo "No index.html found in ZIP."
+              exit 1
+            fi
             cp -a "$SITE_DIR"/. _site/
           elif [ -f index.html ]; then
             cp -a . _site/
             rm -rf _site/.git _site/.github
           else
-            echo "Upload keiba-prototype-v13-final-stage.zip or site files."
+            echo "No site ZIP or index.html found."
             exit 1
           fi
       - name: Setup Pages
