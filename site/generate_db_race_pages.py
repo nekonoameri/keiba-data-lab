@@ -23,6 +23,11 @@ def main():
     for date,items in bydate.items():
         cards=''.join(f'<div class="card"><a href="races/{fn}"><b>{e(r["track"])} {r["race_no"]}R</b> {e(r["race_name"])} →</a><br><span class="muted">{e(r["surface"])} {e(r["distance"])}m / 3連単 {yen(r["trifecta_payout"])}</span></div>' for r,fn in items)
         (ROOT/f'date-{date}.html').write_text(shell(f'{date} レース結果',f'<div class="hero"><div class="eyebrow">DAILY RESULTS</div><h1>{date} レース結果</h1><p>DBに存在する実開催レースのみ掲載。</p></div>{cards}').replace('../index.html','index.html'),encoding='utf-8')
+    archive=[]
+    for date in sorted(bydate, reverse=True):
+        archive.append(f'<a class="card" href="date-{date}.html"><b>{date}</b><span class="muted"> {len(bydate[date])}レース →</span></a>')
+    archive_body='<div class="hero"><div class="eyebrow">VERIFIED RACE ARCHIVE</div><h1>実レース結果アーカイブ</h1><p>DBに取り込んだ検証済み開催日のみ掲載。</p></div><div>'+''.join(archive)+'</div>'
+    (ROOT/'race-archive.html').write_text(shell('実レース結果アーカイブ',archive_body).replace('../index.html','index.html'),encoding='utf-8')
     manifest={'races':len(generated),'dates':len(bydate),'pages':generated}
     (ROOT/'data'/'db-race-page-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(manifest,ensure_ascii=False))
