@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-BASE='https://jra.jp'
+BASE='https://www.jra.go.jp'
 UA='KEIBA-DATA-LAB/0.12 (+local research prototype; respectful sequential fetch)'
 
 def discover(year:int):
@@ -20,7 +20,7 @@ def discover(year:int):
     seen=set()
     for a in soup.find_all('a',href=True):
         href=urljoin(url,a['href'])
-        href=href.replace('https://www.jra.go.jp/','https://jra.jp/').replace('https://www.jra.jp/','https://jra.jp/')
+        
         if not re.search(rf'/datafile/seiseki/report/{year}/[^?#]+\\.pdf
         # Exclude sales-ticket PDFs; keep result PDFs only. JRA result filenames normally include a track name.
         name=href.rsplit('/',1)[-1]
