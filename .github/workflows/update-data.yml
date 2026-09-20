@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/site-data.js site/site-data.json site/races site/date-*.html site/sitemap.xml site/races.csv site/runners.csv site/keiba.db 2>/dev/null || true
+          git add -A -- site/site-data.js site/site-data.json site/races.csv site/runners.csv site/keiba.db site/races site/sitemap.xml || true
           if git diff --cached --quiet; then
             echo "No verified-data changes"
           else
