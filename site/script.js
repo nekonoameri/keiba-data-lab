@@ -1,0 +1,1 @@
+document.querySelectorAll('.chip,.filter').forEach(x=>x.addEventListener('click',()=>{const group=x.parentElement;group.querySelectorAll('.chip,.filter').forEach(y=>y.classList.remove('active'));x.classList.add('active')}));

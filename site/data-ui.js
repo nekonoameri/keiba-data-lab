@@ -1,0 +1,5 @@
+(()=>{const d=window.KEIBA_DATA||{};const q=s=>document.querySelector(s);
+// Non-destructive: only replaces known demo tables when real DB-generated data exists.
+if((d.wild_races||[]).length){const t=[...document.querySelectorAll('table')].find(x=>/3連単|配当/.test(x.innerText));if(t){const b=t.tBodies[0]||t.appendChild(document.createElement('tbody'));b.innerHTML=d.wild_races.slice(0,20).map((x,i)=>`<tr><td>${i+1}</td><td>${x.race_date}</td><td>${x.track}${x.race_no}R</td><td>${x.surface||''}${x.distance||''}m</td><td>${x.popularity_top3||'—'}</td><td><strong>${Number(x.trifecta_payout||0).toLocaleString()}円</strong></td></tr>`).join('')}}
+if((d.jockey_rankings||[]).length){const t=[...document.querySelectorAll('table')].find(x=>/騎手/.test(x.innerText)&&/複勝/.test(x.innerText));if(t){const b=t.tBodies[0]||t.appendChild(document.createElement('tbody'));b.innerHTML=d.jockey_rankings.slice(0,20).map((x,i)=>`<tr><td>${i+1}</td><td>${x.jockey}</td><td>${x.rides}</td><td>${x.win_rate}%</td><td>${x.place_rate}%</td><td>${x.avg_popularity??'—'}</td></tr>`).join('')}}
+})();
