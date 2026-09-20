@@ -1,6 +1,17 @@
 name: Update verified JRA data
 
 on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/update-data.yml"
+      - "site/fetch_jra_pdfs.py"
+      - "site/jra_pdf_adapter.py"
+      - "site/import_csv.py"
+      - "site/validate_data.py"
+      - "site/build_site_data.py"
+      - "site/generate_db_race_pages.py"
+      - "site/update_site.py"
   workflow_dispatch:
     inputs:
       years:
