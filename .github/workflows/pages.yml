@@ -1,0 +1,51 @@
+name: Deploy KEIBA DATA LAB
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prepare site
+        shell: bash
+        run: |
+          set -e
+          rm -rf _site
+          mkdir _site
+          if [ -f keiba-prototype-v13-final-stage.zip ]; then
+            unzip -q keiba-prototype-v13-final-stage.zip -d _unpacked
+            SITE_DIR=$(find _unpacked -type f -name index.html -printf '%h\n' | head -1)
+            cp -a "$SITE_DIR"/. _site/
+          elif [ -f index.html ]; then
+            cp -a . _site/
+            rm -rf _site/.git _site/.github
+          else
+            echo "Upload keiba-prototype-v13-final-stage.zip or site files."
+            exit 1
+          fi
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
