@@ -3,10 +3,13 @@ name: Deploy KEIBA DATA LAB
 on:
   push:
     branches: ["main"]
+    paths:
+      - "site/**"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -23,53 +26,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Extract v13 into editable site directory
-        shell: bash
-        run: |
-          set -e
-          if [ -f "KEIBA-DATA-LAB-v13.zip" ]; then
-            ZIP_FILE="KEIBA-DATA-LAB-v13.zip"
-          elif [ -f "KEIBA-DATA-LAB-v13-FINAL.zip" ]; then
-            ZIP_FILE="KEIBA-DATA-LAB-v13-FINAL.zip"
-          else
-            ZIP_FILE=$(find . -maxdepth 1 -type f -iname '*v13*.zip' | head -1)
-          fi
-          [ -n "$ZIP_FILE" ] && [ -f "$ZIP_FILE" ] || { echo "v13 ZIP not found"; exit 1; }
-
-          rm -rf _unpacked
-          mkdir _unpacked
-          unzip -q "$ZIP_FILE" -d _unpacked
-          SITE_DIR=$(find _unpacked -type f -name index.html -printf '%h\n' | head -1)
-          [ -n "$SITE_DIR" ] || { echo "No index.html found"; exit 1; }
-
-          mkdir -p site
-          cp -a "$SITE_DIR"/. site/
-          rm -rf _unpacked
-          touch site/.nojekyll
-
-      - name: Save editable site files to repository
-        shell: bash
-        run: |
-          set -e
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site
-          if git diff --cached --quiet; then
-            echo "site/ already up to date"
-          else
-            git commit -m "Extract v13 into editable site files"
-            git push
-          fi
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: site
-
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
