@@ -26,8 +26,10 @@ def discover(year:int):
         name=href.rsplit('/',1)[-1]
         if name in seen: continue
         text=' '.join(a.stripped_strings)
-        if '発売票数' in text or 'hyo' in name.lower(): continue
+        if '発売票数' in text or '票数' in text or 'hyo' in name.lower(): continue
         seen.add(name); found.append((href,name,text))
+    # Annual pages may contain a separate latest-results section; filenames are the stable identity.
+    found.sort(key=lambda x:x[1])
     return url,found
 
 def main():
