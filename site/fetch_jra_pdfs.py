@@ -23,11 +23,13 @@ def discover(year:int):
     found=[]
     seen=set()
     for a in soup.find_all('a',href=True):
-        href=urljoin(url,a['href'])
+        raw=a['href']
+        href=urljoin(url,raw)
         
         if not re.search(rf'/datafile/seiseki/report/{year}/[^?#]+\\.pdf
         # Exclude sales-ticket PDFs; keep result PDFs only. JRA result filenames normally include a track name.
         name=href.rsplit('/',1)[-1].split('?',1)[0].split('#',1)[0]
+        if f'/report/{year}/' not in href: continue
         if name in seen: continue
         text=' '.join(a.stripped_strings)
         if '発売票数' in text or '票数' in text or 'hyo' in name.lower(): continue
