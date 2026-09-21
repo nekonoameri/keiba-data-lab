@@ -76,7 +76,9 @@ def main():
     urls=urls_from(Path(a.input)); updated=0
     for n,url in enumerate(urls,1):
         if urlparse(url).netloc not in {'www.jra.go.jp','jra.go.jp'}: raise SystemExit(f'non-JRA URL rejected: {url}')
-        r=requests.get(url,headers={'User-Agent':UA},timeout=30); r.raise_for_status()\n        r.encoding=r.apparent_encoding or r.encoding\n        race, runners=parse(url,r.text)
+        r=requests.get(url,headers={'User-Agent':UA},timeout=30); r.raise_for_status()
+        r.encoding=r.apparent_encoding or r.encoding
+        race, runners=parse(url,r.text)
         con.execute('''INSERT INTO races(race_id,race_date,track,race_no,surface,distance,going,trifecta_payout,source_url) VALUES(?,?,?,?,?,?,?,?,?) ON CONFLICT(race_id) DO UPDATE SET surface=COALESCE(excluded.surface,races.surface),distance=COALESCE(excluded.distance,races.distance),going=CASE WHEN excluded.going<>'' THEN excluded.going ELSE races.going END,trifecta_payout=COALESCE(excluded.trifecta_payout,races.trifecta_payout),source_url=excluded.source_url''',(race['race_id'],race['race_date'],race['track'],race['race_no'],race['surface'],race['distance'],race['going'],race['trifecta_payout'],url))
         for u in runners:
             con.execute('''INSERT INTO runners(race_id,horse_no,finish,frame_no,horse_name,jockey,popularity,finish_time) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(race_id,horse_no) DO UPDATE SET finish=COALESCE(excluded.finish,runners.finish),frame_no=COALESCE(excluded.frame_no,runners.frame_no),horse_name=CASE WHEN excluded.horse_name<>'' THEN excluded.horse_name ELSE runners.horse_name END,jockey=CASE WHEN excluded.jockey<>'' THEN excluded.jockey ELSE runners.jockey END,popularity=COALESCE(excluded.popularity,runners.popularity),finish_time=CASE WHEN excluded.finish_time<>'' THEN excluded.finish_time ELSE runners.finish_time END''',(race['race_id'],u['horse_no'],u['finish'],u['frame_no'],u['horse_name'],u['jockey'],u['popularity'],u['finish_time']))
