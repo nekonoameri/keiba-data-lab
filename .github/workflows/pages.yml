@@ -26,23 +26,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: site/requirements.txt
-      - name: Build verified JRA data
+      - name: Verify generated historical data
         shell: bash
         run: |
-          pip install -r site/requirements.txt
-          cd site
-          python update_site.py --fetch --year 2026 --limit 1 --base-url "https://nekonoameri.github.io/keiba-data-lab/"
           python - <<'PY'
           import json
-          d=json.load(open("data/db-race-page-manifest.json",encoding="utf-8"))
-          assert d["races"] > 0, "No verified races generated; refusing empty deployment"
-          print("Verified races:",d["races"],"dates:",d["dates"])
+          d=json.load(open("site/data/db-race-page-manifest.json",encoding="utf-8"))
+          s=json.load(open("site/site-data.json",encoding="utf-8"))
+          assert d.get("races",0) > 0, "No generated races; refusing empty deployment"
+          assert len(s.get("jockey_rankings",[])) > 0, "No jockey rankings; refusing empty deployment"
+          print("Races:",d["races"],"Jockey rankings:",len(s["jockey_rankings"]))
           PY
       - name: Setup Pages
         uses: actions/configure-pages@v5
