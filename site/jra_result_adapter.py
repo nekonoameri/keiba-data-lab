@@ -62,7 +62,13 @@ def parse(url,html):
         if img:
             fm=re.search(r'枠(\d)',img.get('alt','')); frame=int(fm.group(1)) if fm else None
         runners.append(dict(horse_no=horse_no,finish=finish,horse_name=horse_name,jockey=jockey,popularity=popularity,finish_time=finish_time,frame_no=frame))
-    return dict(race_id=rid,race_date=date,track=track,race_no=rn,surface=surface,distance=distance,going=going,source_url=url),runners
+    # Official payout: store the first 3連単 payout when present.
+    trifecta=None
+    pm=re.search(r'3連単\s+[^\n]*?([\d,]+)円',text)
+    if pm:
+        try: trifecta=int(pm.group(1).replace(',',''))
+        except: pass
+    return dict(race_id=rid,race_date=date,track=track,race_no=rn,surface=surface,distance=distance,going=going,trifecta_payout=trifecta,source_url=url),runners
 
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('input'); ap.add_argument('--db',default='keiba.db'); ap.add_argument('--delay',type=float,default=1.0); a=ap.parse_args()
@@ -71,7 +77,7 @@ def main():
     for n,url in enumerate(urls,1):
         if urlparse(url).netloc not in {'www.jra.go.jp','jra.go.jp'}: raise SystemExit(f'non-JRA URL rejected: {url}')
         r=requests.get(url,headers={'User-Agent':UA},timeout=30); r.raise_for_status(); race, runners=parse(url,r.text)
-        con.execute('''INSERT INTO races(race_id,race_date,track,race_no,surface,distance,going,source_url) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(race_id) DO UPDATE SET surface=COALESCE(excluded.surface,races.surface),distance=COALESCE(excluded.distance,races.distance),going=CASE WHEN excluded.going<>'' THEN excluded.going ELSE races.going END,source_url=excluded.source_url''',(race['race_id'],race['race_date'],race['track'],race['race_no'],race['surface'],race['distance'],race['going'],url))
+        con.execute('''INSERT INTO races(race_id,race_date,track,race_no,surface,distance,going,trifecta_payout,source_url) VALUES(?,?,?,?,?,?,?,?,?) ON CONFLICT(race_id) DO UPDATE SET surface=COALESCE(excluded.surface,races.surface),distance=COALESCE(excluded.distance,races.distance),going=CASE WHEN excluded.going<>'' THEN excluded.going ELSE races.going END,trifecta_payout=COALESCE(excluded.trifecta_payout,races.trifecta_payout),source_url=excluded.source_url''',(race['race_id'],race['race_date'],race['track'],race['race_no'],race['surface'],race['distance'],race['going'],race['trifecta_payout'],url))
         for u in runners:
             con.execute('''INSERT INTO runners(race_id,horse_no,finish,frame_no,horse_name,jockey,popularity,finish_time) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(race_id,horse_no) DO UPDATE SET finish=COALESCE(excluded.finish,runners.finish),frame_no=COALESCE(excluded.frame_no,runners.frame_no),horse_name=CASE WHEN excluded.horse_name<>'' THEN excluded.horse_name ELSE runners.horse_name END,jockey=CASE WHEN excluded.jockey<>'' THEN excluded.jockey ELSE runners.jockey END,popularity=COALESCE(excluded.popularity,runners.popularity),finish_time=CASE WHEN excluded.finish_time<>'' THEN excluded.finish_time ELSE runners.finish_time END''',(race['race_id'],u['horse_no'],u['finish'],u['frame_no'],u['horse_name'],u['jockey'],u['popularity'],u['finish_time']))
             updated+=1
