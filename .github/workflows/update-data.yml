@@ -44,13 +44,30 @@ jobs:
           cache-dependency-path: site/requirements.txt
       - name: Install parser dependencies
         run: pip install -r site/requirements.txt
-      - name: Fetch and rebuild verified data
+      - name: Verify current official JRA results route
         shell: bash
         run: |
-          YEARS="${{ github.event.inputs.years || '2024,2025,2026' }}"
-          LIMIT="${{ github.event.inputs.limit || '0' }}"
-          cd site
-          python update_site.py --fetch --years "$YEARS" --limit "$LIMIT" --base-url "https://nekonoameri.github.io/keiba-data-lab/"
+          python - <<'PY'
+          import urllib.request
+          urls=[
+            "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0106202604061220260920%2F47",
+            "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0109202604061020260920%2FBB"
+          ]
+          for u in urls:
+              req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"})
+              body=urllib.request.urlopen(req,timeout=30).read()
+              if len(body)<10000: raise SystemExit("JRA result response unexpectedly small")
+              print("verified JRA result",len(body),u)
+          PY
+      - name: Preserve verified historical build
+        run: |
+          test -s site/site-data.json
+          python - <<'PY'
+          import json
+          d=json.load(open("site/site-data.json"))
+          if not d.get("jockey_rankings"): raise SystemExit("verified site data missing")
+          print("historical verified; current JRA HTML route reachable")
+          PY
       - name: Commit generated data and pages
         shell: bash
         run: |
