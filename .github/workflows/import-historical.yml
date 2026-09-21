@@ -22,10 +22,13 @@ jobs:
           import kagglehub, shutil
           from pathlib import Path
           p=Path(kagglehub.dataset_download("takamotoki/jra-horse-racing-dataset"))
-          files=list(p.rglob("*race_result*.csv"))
-          if not files: raise SystemExit("race_result CSV not found")
-          shutil.copy2(files[0], "site/data/historical_race_result.csv")
-          print(files[0])
+          files=sorted(p.rglob("*.csv"))
+          race=[x for x in files if "race_result" in x.name]
+          if not race: raise SystemExit("race_result CSV not found")
+          shutil.copy2(race[0], "site/data/historical_race_result.csv")
+          print("dataset CSV files:")
+          for x in files: print(x.name, x.stat().st_size)
+          print("race result:",race[0])
           PY
       - name: Normalize historical runners
         run: python site/import_historical_dataset.py site/data/historical_race_result.csv --out runners.csv
