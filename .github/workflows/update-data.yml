@@ -30,6 +30,14 @@ jobs:
           cache-dependency-path: site/requirements.txt
       - name: Install dependencies
         run: pip install -r site/requirements.txt
+      - name: Fetch official annual JRA result PDFs for 2022-2026
+        shell: bash
+        run: |
+          cd site
+          rm -rf data/jra_pdf
+          for YEAR in 2022 2023 2024 2025 2026; do
+            python fetch_jra_pdfs.py --year "$YEAR" --delay 0.2
+          done
       - name: Import latest official JRA results without destroying historical build
         shell: bash
         run: |
