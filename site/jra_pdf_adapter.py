@@ -42,7 +42,17 @@ def pdf_text(path):
     print(f'PDF_EXTRACT {Path(path).name}: engine={engine} score={score}',file=sys.stderr)
     return text
 
-def race_chunks(text):
+def race_chunks(text,path=None):
+    # Annual PDFs often omit the Gregorian year and/or venue from repeated page
+    # headers. Recover those two stable fields from the official PDF filename.
+    fallback_year=''
+    fallback_track=''
+    if path is not None:
+        fn=Path(path).name.lower()
+        ym=re.match(r'(20\\d{2})-',fn)
+        if ym: fallback_year=ym.group(1)
+        track_map={'sapporo':'札幌','hakodate':'函館','fukushima':'福島','niigata':'新潟','tokyo':'東京','nakayama':'中山','chukyo':'中京','kyoto':'京都','hanshin':'阪神','kokura':'小倉'}
+        fallback_track=next((jp for en,jp in track_map.items() if en in fn),'')
     race_pat=re.compile(r'(?:第\\s*)?(?P<r>1[0-2]|[1-9])\\s*(?:競走|R\\b)',re.I)
     ms=list(race_pat.finditer(text))
     for i,m in enumerate(ms):
@@ -50,9 +60,12 @@ def race_chunks(text):
         dm=list(re.finditer(r'(?P<m>\\d{1,2})月(?P<d>\\d{1,2})日',left))
         ym=list(re.finditer(r'(?P<year>20\\d{2})年',left))
         tm=list(re.finditer(r'(?P<track>'+TRACKS+r')',left))
-        if not (dm and ym and tm): continue
-        d,y,t=dm[-1],ym[-1],tm[-1]
-        meta={'m':d.group('m'),'d':d.group('d'),'year':y.group('year'),'track':t.group('track'),'r':m.group('r')}
+        if not dm: continue
+        year=ym[-1].group('year') if ym else fallback_year
+        track=tm[-1].group('track') if tm else fallback_track
+        if not (year and track): continue
+        d=dm[-1]
+        meta={'m':d.group('m'),'d':d.group('d'),'year':year,'track':track,'r':m.group('r')}
         class Match:
             def group(self,k): return meta[k]
         end=ms[i+1].start() if i+1<len(ms) else len(text)
@@ -89,7 +102,7 @@ def parse_runners(chunk,race_id):
 def parse_file(path):
     text=norm(pdf_text(path)); races=[]; runners=[]
     if not text.strip(): raise ValueError(f'No extractable text in official JRA PDF: {path}')
-    for m,chunk in race_chunks(text):
+    for m,chunk in race_chunks(text,path):
         track=m.group('track'); rn=int(m.group('r')); date=f'{int(m.group("year")):04d}-{int(m.group("m")):02d}-{int(m.group("d")):02d}'; rid=f'{date.replace("-","")}-{track}-{rn:02d}'
         sm=re.search(r'発走\s*\d+時\d+分\s*（(?P<s>芝|ダート)',chunk); surface=sm.group('s') if sm else ('障害' if '障害' in chunk[:500] else '')
         # Header distance immediately before 発走 is the safest candidate.
