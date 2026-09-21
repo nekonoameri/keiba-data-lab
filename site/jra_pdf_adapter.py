@@ -53,14 +53,19 @@ def race_chunks(text,path=None):
         if ym: fallback_year=ym.group(1)
         track_map={'sapporo':'札幌','hakodate':'函館','fukushima':'福島','niigata':'新潟','tokyo':'東京','nakayama':'中山','chukyo':'中京','kyoto':'京都','hanshin':'阪神','kokura':'小倉'}
         fallback_track=next((jp for en,jp in track_map.items() if en in fn),'')
-    race_pat=re.compile(r'(?:第\\s*)?(?P<r>1[0-2]|[1-9])\\s*(?:競走|R\\b)',re.I)
+    race_pat=re.compile(r'(?:第\\s*)?(?P<r>1[0-2]|[1-9])\\s*(?:競走|レース|Ｒ|R)(?![A-Za-z0-9])',re.I)
     ms=list(race_pat.finditer(text))
     for i,m in enumerate(ms):
         left=text[max(0,m.start()-1800):m.start()]
         dm=list(re.finditer(r'(?P<m>\\d{1,2})月(?P<d>\\d{1,2})日',left))
         ym=list(re.finditer(r'(?P<year>20\\d{2})年',left))
         tm=list(re.finditer(r'(?P<track>'+TRACKS+r')',left))
-        if not dm: continue
+        if not dm:
+            # Some annual-result PDFs suppress the date around individual race
+            # anchors. Use the first date found in the document/page context.
+            all_dm=list(re.finditer(r'(?P<m>\\d{1,2})月(?P<d>\\d{1,2})日',text))
+            if not all_dm: continue
+            dm=all_dm
         year=ym[-1].group('year') if ym else fallback_year
         track=tm[-1].group('track') if tm else fallback_track
         if not (year and track): continue
