@@ -10,7 +10,7 @@ from pypdf import PdfReader
 TRACKS='札幌|函館|福島|新潟|東京|中山|中京|京都|阪神|小倉'
 FW=str.maketrans('０１２３４５６７８９，．：','0123456789,.:' )
 def norm(s): return s.translate(FW).replace('\u3000',' ').replace('，',',').replace('．','.').replace('：',':')
-def pdf_text(path): return '\n'.join((p.extract_text() or '') for p in PdfReader(str(path)).pages)
+def pdf_text(path):\n    # JRA PDFs use embedded fonts whose default Unicode maps can be garbled.\n    # Try layout extraction first; fail with a concise diagnostic instead of dumping megabytes.\n    pages=[]\n    for p in PdfReader(str(path)).pages:\n        try: s=p.extract_text(extraction_mode='layout') or ''\n        except Exception: s=p.extract_text() or ''\n        pages.append(s)\n    return '\\n'.join(pages)
 def race_chunks(text):
     race_pat=re.compile(r'第\\s*(?P<r>1[0-2]|[1-9])\\s*競走')
     ms=list(race_pat.finditer(text))
