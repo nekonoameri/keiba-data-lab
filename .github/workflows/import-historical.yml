@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/import-historical.yml'
       - 'site/import_historical_dataset.py'
+      - 'site/build_site_data.py'
 jobs:
   import:
     runs-on: ubuntu-latest
