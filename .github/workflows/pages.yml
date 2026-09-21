@@ -37,7 +37,7 @@ jobs:
         run: |
           pip install -r site/requirements.txt
           cd site
-          python update_site.py --fetch --year 2026 --limit 3 --base-url "https://nekonoameri.github.io/keiba-data-lab/"
+          python update_site.py --fetch --year 2026 --limit 1 --base-url "https://nekonoameri.github.io/keiba-data-lab/"
           python - <<'PY'
           import json
           d=json.load(open("data/db-race-page-manifest.json",encoding="utf-8"))
