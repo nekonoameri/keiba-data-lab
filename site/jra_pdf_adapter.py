@@ -7,10 +7,41 @@ from __future__ import annotations
 import argparse,csv,re,sys
 from pathlib import Path
 from pypdf import PdfReader
+try:
+    import pymupdf
+except ImportError:
+    pymupdf=None
 TRACKS='札幌|函館|福島|新潟|東京|中山|中京|京都|阪神|小倉'
 FW=str.maketrans('０１２３４５６７８９，．：','0123456789,.:' )
 def norm(s): return s.translate(FW).replace('\u3000',' ').replace('，',',').replace('．','.').replace('：',':')
-def pdf_text(path):\n    # JRA PDFs use embedded fonts whose default Unicode maps can be garbled.\n    # Try layout extraction first; fail with a concise diagnostic instead of dumping megabytes.\n    pages=[]\n    for p in PdfReader(str(path)).pages:\n        try: s=p.extract_text(extraction_mode='layout') or ''\n        except Exception: s=p.extract_text() or ''\n        pages.append(s)\n    return '\\n'.join(pages)
+def _text_score(s):
+    if not s: return -1
+    tokens=('競走','発走','中山','東京','阪神','京都','中京','札幌','函館','福島','新潟','小倉','3連単')
+    return sum(s.count(t) for t in tokens) + 20*len(re.findall(r'第\\s*(?:1[0-2]|[1-9])\\s*競走',s))
+
+def pdf_text(path):
+    """Try independent PDF engines and keep the extraction that best matches JRA race text."""
+    candidates=[]
+    try:
+        pages=[]
+        for p in PdfReader(str(path)).pages:
+            try: pages.append(p.extract_text(extraction_mode='layout') or '')
+            except Exception: pages.append(p.extract_text() or '')
+        candidates.append(('pypdf-layout','\\n'.join(pages)))
+    except Exception as e:
+        print(f'WARN pypdf {path}: {e}',file=sys.stderr)
+    if pymupdf is not None:
+        try:
+            with pymupdf.open(str(path)) as doc:
+                candidates.append(('pymupdf','\\n'.join(page.get_text('text',sort=True) or '' for page in doc)))
+        except Exception as e:
+            print(f'WARN pymupdf {path}: {e}',file=sys.stderr)
+    if not candidates: return ''
+    engine,text=max(candidates,key=lambda x:_text_score(norm(x[1])))
+    score=_text_score(norm(text))
+    print(f'PDF_EXTRACT {Path(path).name}: engine={engine} score={score}',file=sys.stderr)
+    return text
+
 def race_chunks(text):
     race_pat=re.compile(r'第\\s*(?P<r>1[0-2]|[1-9])\\s*競走')
     ms=list(race_pat.finditer(text))
@@ -58,7 +89,6 @@ def parse_runners(chunk,race_id):
 def parse_file(path):
     text=norm(pdf_text(path)); races=[]; runners=[]
     if not text.strip(): raise ValueError(f'No extractable text in official JRA PDF: {path}')
-    print('PDF_TEXT_SAMPLE', repr(text[:2500]), file=sys.stderr)
     for m,chunk in race_chunks(text):
         track=m.group('track'); rn=int(m.group('r')); date=f'{int(m.group("year")):04d}-{int(m.group("m")):02d}-{int(m.group("d")):02d}'; rid=f'{date.replace("-","")}-{track}-{rn:02d}'
         sm=re.search(r'発走\s*\d+時\d+分\s*（(?P<s>芝|ダート)',chunk); surface=sm.group('s') if sm else ('障害' if '障害' in chunk[:500] else '')
