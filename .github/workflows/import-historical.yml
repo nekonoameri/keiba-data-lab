@@ -26,12 +26,28 @@ jobs:
           race=[x for x in files if "race_result" in x.name]
           if not race: raise SystemExit("race_result CSV not found")
           shutil.copy2(race[0], "site/data/historical_race_result.csv")
+          for key in ("odds","laptime","corner_passing_order"):
+              matches=[x for x in files if key in x.name]
+              if matches: shutil.copy2(matches[0], f"site/data/historical_{key}.csv")
           print("dataset CSV files:")
           for x in files: print(x.name, x.stat().st_size)
           print("race result:",race[0])
           PY
       - name: Normalize historical runners
         run: python site/import_historical_dataset.py site/data/historical_race_result.csv --out runners.csv
+          python - <<'PY'
+          import csv,json
+          from pathlib import Path
+          root=Path("site/data"); out={}
+          for key in ("odds","laptime","corner_passing_order"):
+              p=root/f"historical_{key}.csv"
+              if not p.exists(): continue
+              with p.open(encoding="utf-8-sig",errors="replace") as f:
+                  rd=csv.reader(f); header=next(rd); n=sum(1 for _ in rd)
+              out[key]={"rows":n,"columns":header}
+          (root/"historical-extra-manifest.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
+          print(out)
+          PY
       - name: Verify non-empty
         run: |
           python - <<'PY'
@@ -52,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          rm -f site/runners.csv site/data/historical_race_result.csv
-          git add -f site/site-data.json site/site-data.js site/data/db-race-page-manifest.json site/race-archive.html || true
+          rm -f site/runners.csv site/data/historical_race_result.csv site/data/historical_odds.csv site/data/historical_laptime.csv site/data/historical_corner_passing_order.csv
+          git add -f site/site-data.json site/site-data.js site/data/db-race-page-manifest.json site/data/historical-extra-manifest.json site/race-archive.html || true
           git commit -m "Build site from historical JRA data" || exit 0
           git push
