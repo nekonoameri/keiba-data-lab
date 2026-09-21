@@ -38,10 +38,19 @@ jobs:
           print("historical runners:",n)
           if n < 1000: raise SystemExit("historical import unexpectedly small")
           PY
-      - name: Commit normalized historical data
+      - name: Build site from historical data
+        run: |
+          cd site
+          python import_csv.py
+          python validate_data.py
+          python build_site_data.py
+          python generate_db_race_pages.py
+          python generate_sitemap.py
+      - name: Commit generated site data only
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/runners-historical.csv
-          git commit -m "Import normalized historical JRA runners" || exit 0
+          rm -f site/runners-historical.csv site/data/historical_race_result.csv
+          git add site/site-data.json site/data site/race-archive.html site/race site/date site/sitemap.xml || true
+          git commit -m "Build site from historical JRA data" || exit 0
           git push
