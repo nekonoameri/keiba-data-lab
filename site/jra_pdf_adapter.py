@@ -57,6 +57,8 @@ def parse_runners(chunk,race_id):
 
 def parse_file(path):
     text=norm(pdf_text(path)); races=[]; runners=[]
+    if not text.strip(): raise ValueError(f'No extractable text in official JRA PDF: {path}')
+    print('PDF_TEXT_SAMPLE', repr(text[:2500]), file=sys.stderr)
     for m,chunk in race_chunks(text):
         track=m.group('track'); rn=int(m.group('r')); date=f'{int(m.group("year")):04d}-{int(m.group("m")):02d}-{int(m.group("d")):02d}'; rid=f'{date.replace("-","")}-{track}-{rn:02d}'
         sm=re.search(r'発走\s*\d+時\d+分\s*（(?P<s>芝|ダート)',chunk); surface=sm.group('s') if sm else ('障害' if '障害' in chunk[:500] else '')
