@@ -28,12 +28,12 @@ jobs:
           print(files[0])
           PY
       - name: Normalize historical runners
-        run: python site/import_historical_dataset.py site/data/historical_race_result.csv --out runners-historical.csv
+        run: python site/import_historical_dataset.py site/data/historical_race_result.csv --out runners.csv
       - name: Verify non-empty
         run: |
           python - <<'PY'
           import csv
-          p="site/runners-historical.csv"
+          p="site/runners.csv"
           n=sum(1 for _ in csv.DictReader(open(p,encoding="utf-8")))
           print("historical runners:",n)
           if n < 1000: raise SystemExit("historical import unexpectedly small")
@@ -45,12 +45,11 @@ jobs:
           python validate_data.py
           python build_site_data.py
           python generate_db_race_pages.py
-          python generate_sitemap.py
       - name: Commit generated site data only
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          rm -f site/runners-historical.csv site/data/historical_race_result.csv
+          rm -f site/runners.csv site/data/historical_race_result.csv
           git add site/site-data.json site/data site/race-archive.html site/race site/date site/sitemap.xml || true
           git commit -m "Build site from historical JRA data" || exit 0
           git push
