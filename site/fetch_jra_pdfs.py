@@ -34,6 +34,17 @@ def discover(year:int):
         seen.add(name); found.append((href,name,text))
     # Annual pages may contain a separate latest-results section; filenames are the stable identity.
     found.sort(key=lambda x:x[1])
+    if not found:
+        # Fallback: JRA uses predictable annual result filenames; probe official links directly.
+        for meet in range(1,7):
+            for day in range(1,13):
+                for code in ('nakayama','tokyo','kyoto','hanshin','chukyo','sapporo','hakodate','fukushima','niigata','kokura'):
+                    name=f'{year}-{meet}{code}{day}.pdf'; href=f'{BASE}/datafile/seiseki/report/{year}/{name}'
+                    try:
+                        h=requests.head(href,headers={'User-Agent':UA},timeout=8,allow_redirects=True)
+                        if h.status_code==200 and ('pdf' in h.headers.get('content-type','').lower() or int(h.headers.get('content-length','0') or 0)>10000): found.append((href,name,'fallback probe'))
+                    except requests.RequestException: pass
+                    if found: return url,found
     return url,found
 
 def main():
