@@ -6,7 +6,7 @@ on:
     paths:
       - ".github/workflows/update-data.yml"
       - "site/fetch_jra_pdfs.py"
-      - "site/jra_pdf_adapter.py"
+      - "site/jra_pdf_adapter.py"\n      - "site/jra_result_adapter.py"
       - "site/import_csv.py"
       - "site/validate_data.py"
       - "site/build_site_data.py"
