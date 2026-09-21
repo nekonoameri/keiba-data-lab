@@ -12,10 +12,21 @@ FW=str.maketrans('０１２３４５６７８９，．：','0123456789,.:' )
 def norm(s): return s.translate(FW).replace('\u3000',' ').replace('，',',').replace('．','.').replace('：',':')
 def pdf_text(path): return '\n'.join((p.extract_text() or '') for p in PdfReader(str(path)))
 def race_chunks(text):
-    # Stable anchor in official PDFs: 5-digit race code + M月D日 ... 第N競走
-    pat=re.compile(r'(?P<code>\\d{5})\\s+(?P<m>\\d{1,2})月(?P<d>\\d{1,2})日.*?[（(](?P<year>20\\d{2})年[^）)]*?(?P<track>'+TRACKS+r')[）)].{0,500}?第\\s*(?P<r>\\d+)\\s*競走',re.S)
-    ms=list(pat.finditer(text))
-    for i,m in enumerate(ms): yield m,text[m.start():ms[i+1].start() if i+1<len(ms) else len(text)]
+    race_pat=re.compile(r'第\\s*(?P<r>1[0-2]|[1-9])\\s*競走')
+    ms=list(race_pat.finditer(text))
+    for i,m in enumerate(ms):
+        left=text[max(0,m.start()-1800):m.start()]
+        dm=list(re.finditer(r'(?P<m>\\d{1,2})月(?P<d>\\d{1,2})日',left))
+        ym=list(re.finditer(r'(?P<year>20\\d{2})年',left))
+        tm=list(re.finditer(r'(?P<track>'+TRACKS+r')',left))
+        if not (dm and ym and tm): continue
+        d,y,t=dm[-1],ym[-1],tm[-1]
+        meta={'m':d.group('m'),'d':d.group('d'),'year':y.group('year'),'track':t.group('track'),'r':m.group('r')}
+        class Match:
+            def group(self,k): return meta[k]
+        end=ms[i+1].start() if i+1<len(ms) else len(text)
+        yield Match(),text[m.start():end]
+
 def parse_runners(chunk,race_id):
     # Result rows occur before （N頭）. PDF extraction can wrap owner/breeder text, so only parse lines
     # that visibly start with frame + horse number; row order itself is official finish order.
