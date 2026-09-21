@@ -13,7 +13,7 @@ def norm(s): return s.translate(FW).replace('\u3000',' ').replace('，',',').rep
 def pdf_text(path): return '\n'.join((p.extract_text() or '') for p in PdfReader(str(path)))
 def race_chunks(text):
     # Stable anchor in official PDFs: 5-digit race code + M月D日 ... 第N競走
-    pat=re.compile(r'(?P<code>\\d{5})\\s+(?P<m>\\d{1,2})月(?P<d>\\d{1,2})日.*?[（(](?P<year>20\\d{2})年[^）)]*?(?P<track>'+TRACKS+r')[）)].*?第\\s*\\d+\\s*日.*?第\\s*(?P<r>\\d+)\\s*競走',re.S)
+    pat=re.compile(r'(?P<code>\\d{5})\\s+(?P<m>\\d{1,2})月(?P<d>\\d{1,2})日.*?[（(](?P<year>20\\d{2})年[^）)]*?(?P<track>'+TRACKS+r')[）)].{0,500}?第\\s*(?P<r>\\d+)\\s*競走',re.S)
     ms=list(pat.finditer(text))
     for i,m in enumerate(ms): yield m,text[m.start():ms[i+1].start() if i+1<len(ms) else len(text)]
 def parse_runners(chunk,race_id):
