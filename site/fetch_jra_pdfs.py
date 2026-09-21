@@ -15,6 +15,10 @@ UA='KEIBA-DATA-LAB/0.12 (+local research prototype; respectful sequential fetch)
 def discover(year:int):
     url=f'{BASE}/datafile/seiseki/report/{year}.html'
     r=requests.get(url,headers={'User-Agent':UA},timeout=30); r.raise_for_status()
+    # JRA annual pages are served in Japanese legacy-compatible encodings on some responses.
+    # Let requests detect from bytes instead of trusting a missing/incorrect header.
+    if not r.encoding or r.encoding.lower() in ('iso-8859-1','ascii'):
+        r.encoding=r.apparent_encoding
     soup=BeautifulSoup(r.text,'html.parser')
     found=[]
     seen=set()
