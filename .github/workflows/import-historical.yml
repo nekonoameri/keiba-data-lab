@@ -46,8 +46,32 @@ jobs:
               with p.open(encoding="utf-8-sig",errors="replace") as f:
                   rd=csv.reader(f); header=next(rd); n=sum(1 for _ in rd)
               out[key]={"rows":n,"columns":header}
+          # Build compact race-level analytics from odds + lap tables.
+          def num(v):
+              try: return float(str(v).replace(",",""))
+              except: return None
+          analytics={}
+          op=root/"historical_odds.csv"
+          if op.exists():
+              with op.open(encoding="utf-8-sig",errors="replace") as f:
+                  for row in csv.DictReader(f):
+                      rid=row.get("レースID"); tri=num(row.get("三連単1_オッズ"))
+                      if rid: analytics.setdefault(rid,{})["trifecta_odds"]=tri
+          lp=root/"historical_laptime.csv"
+          if lp.exists():
+              with lp.open(encoding="utf-8-sig",errors="replace") as f:
+                  for row in csv.DictReader(f):
+                      rid=row.get("レースID")
+                      if rid:
+                          a=analytics.setdefault(rid,{})
+                          a["first3f"]=num(row.get("前半3ハロン")); a["last3f"]=num(row.get("上がり3ハロン"))
+          vals=[{"race_id":k,**v} for k,v in analytics.items()]
+          tri=[x for x in vals if x.get("trifecta_odds") is not None]
+          top=sorted(tri,key=lambda x:x["trifecta_odds"],reverse=True)[:1000]
+          summary={"races_with_analytics":len(vals),"races_with_trifecta_odds":len(tri),"top_trifecta_odds":top}
+          (root/"historical-analytics.json").write_text(json.dumps(summary,ensure_ascii=False,separators=(",",":")),encoding="utf-8")
           (root/"historical-extra-manifest.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
-          print(out)
+          print(out); print("analytics",len(vals),"trifecta",len(tri))
           PY
       - name: Verify non-empty
         run: |
@@ -70,6 +94,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -f site/runners.csv site/data/historical_race_result.csv site/data/historical_odds.csv site/data/historical_laptime.csv site/data/historical_corner_passing_order.csv
-          git add -f site/site-data.json site/site-data.js site/data/db-race-page-manifest.json site/data/historical-extra-manifest.json site/race-archive.html || true
+          git add -f site/site-data.json site/site-data.js site/data/db-race-page-manifest.json site/data/historical-extra-manifest.json site/data/historical-analytics.json site/race-archive.html || true
           git commit -m "Build site from historical JRA data" || exit 0
           git push
