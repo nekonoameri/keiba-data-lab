@@ -70,7 +70,11 @@ def parse_file(path):
         races.append(dict(race_id=rid,race_date=date,track=track,race_no=rn,race_name=name,surface=surface,distance=distance or '',going=going,starters=int(st.group(1)) if st else '',trifecta_payout=int(tri.group(1).replace(',','')) if tri else '',source_url=''))
         runners.extend(parse_runners(chunk,rid))
     if not races:
-        print(f'WARN no race anchors parsed: {path}',file=sys.stderr)
+        raise ValueError(f'No race anchors parsed from official JRA PDF: {path}')
+    if len(races) < 10:
+        raise ValueError(f'Only {len(races)} races parsed from {path}; refusing partial import')
+    if not runners:
+        raise ValueError(f'No runner rows parsed from official JRA PDF: {path}')
     return races,runners
 
 def main():
@@ -79,7 +83,9 @@ def main():
     for p in a.pdfs:
         try:
             r,u=parse_file(Path(p)); races+=r; runners+=u
-        except Exception as e: print('WARN',p,e,file=sys.stderr)
+        except Exception as e:
+            print('ERROR',p,e,file=sys.stderr)
+            raise
     root=Path(__file__).resolve().parent
     rf=['race_id','race_date','track','race_no','race_name','surface','distance','going','starters','trifecta_payout','source_url']
     uf=['race_id','finish','frame_no','horse_no','horse_name','jockey','popularity','odds','finish_time','last3f']
