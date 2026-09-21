@@ -15,38 +15,20 @@ UA='KEIBA-DATA-LAB/0.12 (+local research prototype; respectful sequential fetch)
 def discover(year:int):
     url=f'{BASE}/datafile/seiseki/report/{year}.html'
     r=requests.get(url,headers={'User-Agent':UA},timeout=30); r.raise_for_status()
-    # JRA annual pages are served in Japanese legacy-compatible encodings on some responses.
-    # Let requests detect from bytes instead of trusting a missing/incorrect header.
     if not r.encoding or r.encoding.lower() in ('iso-8859-1','ascii'):
         r.encoding=r.apparent_encoding
     soup=BeautifulSoup(r.text,'html.parser')
-    found=[]
-    seen=set()
+    found=[]; seen=set()
+    # Source of truth is the links JRA actually publishes. Do not guess filename structure.
     for a in soup.find_all('a',href=True):
-        raw=a['href']
-        href=urljoin(url,raw)
-        
-        if not re.search(rf'/datafile/seiseki/report/{year}/[^?#]+\\.pdf
-        # Exclude sales-ticket PDFs; keep result PDFs only. JRA result filenames normally include a track name.
+        raw=a['href']; href=urljoin(url,raw)
         name=href.rsplit('/',1)[-1].split('?',1)[0].split('#',1)[0]
-        if f'/report/{year}/' not in href: continue
+        label=' '.join(a.stripped_strings)
+        if not name.lower().endswith('.pdf'): continue
+        if f'/datafile/seiseki/report/{year}/' not in href: continue
+        if '発売票数' in label or '票数' in label: continue
         if name in seen: continue
-        text=' '.join(a.stripped_strings)
-        if '発売票数' in text or '票数' in text or 'hyo' in name.lower(): continue
-        seen.add(name); found.append((href,name,text))
-    # Annual pages may contain a separate latest-results section; filenames are the stable identity.
-    found.sort(key=lambda x:x[1])
-    if not found:
-        # Fallback: JRA uses predictable annual result filenames; probe official links directly.
-        for meet in range(1,7):
-            for day in range(1,13):
-                for code in ('nakayama','tokyo','kyoto','hanshin','chukyo','sapporo','hakodate','fukushima','niigata','kokura'):
-                    name=f'{year}-{meet}{code}{day}.pdf'; href=f'{BASE}/datafile/seiseki/report/{year}/{name}'
-                    try:
-                        h=requests.head(href,headers={'User-Agent':UA},timeout=8,allow_redirects=True)
-                        if h.status_code==200 and ('pdf' in h.headers.get('content-type','').lower() or int(h.headers.get('content-length','0') or 0)>10000): found.append((href,name,'fallback probe'))
-                    except requests.RequestException: pass
-                    if found: return url,found
+        seen.add(name); found.append((href,name,label))
     return url,found
 
 def main():
