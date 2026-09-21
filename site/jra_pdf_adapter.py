@@ -43,7 +43,7 @@ def pdf_text(path):
     return text
 
 def race_chunks(text):
-    race_pat=re.compile(r'第\\s*(?P<r>1[0-2]|[1-9])\\s*競走')
+    race_pat=re.compile(r'(?:第\\s*)?(?P<r>1[0-2]|[1-9])\\s*(?:競走|R\\b)',re.I)
     ms=list(race_pat.finditer(text))
     for i,m in enumerate(ms):
         left=text[max(0,m.start()-1800):m.start()]
