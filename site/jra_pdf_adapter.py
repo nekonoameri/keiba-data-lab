@@ -10,7 +10,7 @@ from pypdf import PdfReader
 TRACKS='札幌|函館|福島|新潟|東京|中山|中京|京都|阪神|小倉'
 FW=str.maketrans('０１２３４５６７８９，．：','0123456789,.:' )
 def norm(s): return s.translate(FW).replace('\u3000',' ').replace('，',',').replace('．','.').replace('：',':')
-def pdf_text(path): return '\n'.join((p.extract_text() or '') for p in PdfReader(str(path)))
+def pdf_text(path): return '\n'.join((p.extract_text() or '') for p in PdfReader(str(path)).pages)
 def race_chunks(text):
     race_pat=re.compile(r'第\\s*(?P<r>1[0-2]|[1-9])\\s*競走')
     ms=list(race_pat.finditer(text))
