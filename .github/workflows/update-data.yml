@@ -5,24 +5,9 @@ on:
     branches: ["main"]
     paths:
       - ".github/workflows/update-data.yml"
-      - "site/fetch_jra_pdfs.py"
-      - "site/jra_pdf_adapter.py"
       - "site/jra_result_adapter.py"
-      - "site/import_csv.py"
-      - "site/validate_data.py"
       - "site/build_site_data.py"
-      - "site/generate_db_race_pages.py"
-      - "site/update_site.py"
   workflow_dispatch:
-    inputs:
-      years:
-        description: "JRA result years (comma-separated)"
-        required: true
-        default: "2024,2025,2026"
-      limit:
-        description: "PDF limit (0 = all)"
-        required: true
-        default: "0"
   schedule:
     - cron: "30 12 * * 0"
 
@@ -43,24 +28,9 @@ jobs:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: site/requirements.txt
-      - name: Install parser dependencies
+      - name: Install dependencies
         run: pip install -r site/requirements.txt
-      - name: Verify current official JRA results route
-        shell: bash
-        run: |
-          python - <<'PY'
-          import urllib.request
-          urls=[
-            "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0106202604061220260920%2F47",
-            "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0109202604061020260920%2FBB"
-          ]
-          for u in urls:
-              req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"})
-              body=urllib.request.urlopen(req,timeout=30).read()
-              if len(body)<10000: raise SystemExit("JRA result response unexpectedly small")
-              print("verified JRA result",len(body),u)
-          PY
-      - name: Import verified latest official results
+      - name: Import latest official JRA results without destroying historical build
         shell: bash
         run: |
           cat > site/latest-jra-results.txt <<'EOF'
@@ -80,24 +50,40 @@ jobs:
             python jra_result_adapter.py latest-jra-results.txt --delay 1.0
             python validate_data.py
             python build_site_data.py
+            python - <<'PY'
+          import json
+          d=json.load(open("site-data.json"))
+          print("coverage",d.get("meta"))
+          if not d.get("jockey_rankings"):
+              raise SystemExit("jockey rankings missing after current-data import")
+          PY
           else
-            echo "keiba.db not committed; official URLs verified and queued for next merged DB build"
+            echo "keiba.db is not present; preserve committed historical site-data and verify JRA route only"
+            python - <<'PY'
+          import urllib.request
+          u="https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0106202604061220260920%2F47"
+          req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"})
+          b=urllib.request.urlopen(req,timeout=30).read()
+          if len(b)<10000: raise SystemExit("JRA result response unexpectedly small")
+          print("JRA route verified",len(b))
+          PY
           fi
-      - name: Preserve verified historical build
+      - name: Verify published dataset
         run: |
-          test -s site/site-data.json
           python - <<'PY'
           import json
           d=json.load(open("site/site-data.json"))
-          if not d.get("jockey_rankings"): raise SystemExit("verified site data missing")
-          print("historical verified; current JRA HTML route reachable")
+          m=d.get("meta",{})
+          if int(m.get("race_count") or 0)<1000: raise SystemExit("published race coverage unexpectedly small")
+          if not d.get("jockey_rankings"): raise SystemExit("published jockey rankings missing")
+          print("published dataset verified",m)
           PY
-      - name: Commit generated data and pages
+      - name: Commit generated data
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- site/site-data.js site/site-data.json site/races.csv site/runners.csv site/keiba.db site/races site/date-*.html site/race-archive.html site/sitemap.xml site/data/db-race-page-manifest.json || true
+          git add -A -- site/site-data.js site/site-data.json site/keiba.db site/races site/race-archive.html site/sitemap.xml site/data/db-race-page-manifest.json || true
           if git diff --cached --quiet; then
             echo "No verified-data changes"
           else
