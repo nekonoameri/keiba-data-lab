@@ -50,6 +50,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -f site/runners.csv site/data/historical_race_result.csv
-          git add site/site-data.json site/data site/race-archive.html site/race site/date site/sitemap.xml || true
+          git add -f site/site-data.json site/site-data.js site/data/db-race-page-manifest.json site/race-archive.html || true
           git commit -m "Build site from historical JRA data" || exit 0
           git push
