@@ -1,6 +1,10 @@
 name: Import historical JRA dataset
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/import-historical.yml'
+      - 'site/import_historical_dataset.py'
 jobs:
   import:
     runs-on: ubuntu-latest
