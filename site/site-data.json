@@ -1,6 +1,888 @@
 {
   "wild_races": [],
-  "jockey_rankings": [],
-  "courses": [],
+  "jockey_rankings": [
+    {
+      "jockey": "スコット",
+      "rides": 10,
+      "wins": 3,
+      "win_rate": 30.0,
+      "place_rate": 70.0,
+      "avg_popularity": 3.0
+    },
+    {
+      "jockey": "ケイシー",
+      "rides": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 66.7,
+      "avg_popularity": 8.3
+    },
+    {
+      "jockey": "井上孝彦",
+      "rides": 3,
+      "wins": 1,
+      "win_rate": 33.3,
+      "place_rate": 66.7,
+      "avg_popularity": 7.3
+    },
+    {
+      "jockey": "ディット",
+      "rides": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "place_rate": 60.0,
+      "avg_popularity": 5.4
+    },
+    {
+      "jockey": "モレイラ",
+      "rides": 350,
+      "wins": 114,
+      "win_rate": 32.6,
+      "place_rate": 59.4,
+      "avg_popularity": 2.2
+    },
+    {
+      "jockey": "レーン",
+      "rides": 319,
+      "wins": 79,
+      "win_rate": 24.8,
+      "place_rate": 51.1,
+      "avg_popularity": 2.3
+    },
+    {
+      "jockey": "ヒルス",
+      "rides": 16,
+      "wins": 4,
+      "win_rate": 25.0,
+      "place_rate": 50.0,
+      "avg_popularity": 4.5
+    },
+    {
+      "jockey": "コーセン",
+      "rides": 8,
+      "wins": 1,
+      "win_rate": 12.5,
+      "place_rate": 50.0,
+      "avg_popularity": 4.6
+    },
+    {
+      "jockey": "パウエル",
+      "rides": 6,
+      "wins": 1,
+      "win_rate": 16.7,
+      "place_rate": 50.0,
+      "avg_popularity": 5.0
+    },
+    {
+      "jockey": "エバンス",
+      "rides": 4,
+      "wins": 1,
+      "win_rate": 25.0,
+      "place_rate": 50.0,
+      "avg_popularity": 5.0
+    },
+    {
+      "jockey": "中越琉世",
+      "rides": 4,
+      "wins": 1,
+      "win_rate": 25.0,
+      "place_rate": 50.0,
+      "avg_popularity": 7.3
+    },
+    {
+      "jockey": "渡辺竜也",
+      "rides": 4,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 50.0,
+      "avg_popularity": 10.0
+    },
+    {
+      "jockey": "ルメール",
+      "rides": 6813,
+      "wins": 1433,
+      "win_rate": 21.0,
+      "place_rate": 47.7,
+      "avg_popularity": 3.0
+    },
+    {
+      "jockey": "デットー",
+      "rides": 106,
+      "wins": 24,
+      "win_rate": 22.6,
+      "place_rate": 47.2,
+      "avg_popularity": 3.9
+    },
+    {
+      "jockey": "デザーモ",
+      "rides": 601,
+      "wins": 121,
+      "win_rate": 20.1,
+      "place_rate": 47.1,
+      "avg_popularity": 3.5
+    },
+    {
+      "jockey": "マーフィ",
+      "rides": 344,
+      "wins": 68,
+      "win_rate": 19.8,
+      "place_rate": 46.8,
+      "avg_popularity": 3.1
+    },
+    {
+      "jockey": "デマリア",
+      "rides": 11,
+      "wins": 1,
+      "win_rate": 9.1,
+      "place_rate": 45.5,
+      "avg_popularity": 5.6
+    },
+    {
+      "jockey": "ブラボ",
+      "rides": 11,
+      "wins": 3,
+      "win_rate": 27.3,
+      "place_rate": 45.5,
+      "avg_popularity": 7.2
+    },
+    {
+      "jockey": "早田秀治",
+      "rides": 11,
+      "wins": 2,
+      "win_rate": 18.2,
+      "place_rate": 45.5,
+      "avg_popularity": 6.8
+    },
+    {
+      "jockey": "ベハラー",
+      "rides": 9,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 44.4,
+      "avg_popularity": 8.0
+    },
+    {
+      "jockey": "ベラスケ",
+      "rides": 9,
+      "wins": 1,
+      "win_rate": 11.1,
+      "place_rate": 44.4,
+      "avg_popularity": 4.6
+    },
+    {
+      "jockey": "デムーロ",
+      "rides": 440,
+      "wins": 77,
+      "win_rate": 17.5,
+      "place_rate": 43.9,
+      "avg_popularity": 3.8
+    },
+    {
+      "jockey": "岡部幸雄",
+      "rides": 10641,
+      "wins": 1944,
+      "win_rate": 18.3,
+      "place_rate": 43.6,
+      "avg_popularity": 3.6
+    },
+    {
+      "jockey": "武豊",
+      "rides": 23104,
+      "wins": 4280,
+      "win_rate": 18.5,
+      "place_rate": 43.5,
+      "avg_popularity": 3.3
+    },
+    {
+      "jockey": "Ｍ．デム",
+      "rides": 4518,
+      "wins": 832,
+      "win_rate": 18.4,
+      "place_rate": 43.5,
+      "avg_popularity": 3.2
+    },
+    {
+      "jockey": "ムーア",
+      "rides": 670,
+      "wins": 129,
+      "win_rate": 19.3,
+      "place_rate": 43.1,
+      "avg_popularity": 3.6
+    },
+    {
+      "jockey": "柴田政人",
+      "rides": 4891,
+      "wins": 781,
+      "win_rate": 16.0,
+      "place_rate": 43.0,
+      "avg_popularity": 4.0
+    },
+    {
+      "jockey": "星野忍",
+      "rides": 660,
+      "wins": 108,
+      "win_rate": 16.4,
+      "place_rate": 42.7,
+      "avg_popularity": 4.7
+    },
+    {
+      "jockey": "川村禎彦",
+      "rides": 52,
+      "wins": 6,
+      "win_rate": 11.5,
+      "place_rate": 42.3,
+      "avg_popularity": 4.3
+    },
+    {
+      "jockey": "安藤勝己",
+      "rides": 6628,
+      "wins": 1110,
+      "win_rate": 16.7,
+      "place_rate": 41.5,
+      "avg_popularity": 4.0
+    },
+    {
+      "jockey": "スミヨン",
+      "rides": 359,
+      "wins": 64,
+      "win_rate": 17.8,
+      "place_rate": 41.5,
+      "avg_popularity": 4.3
+    },
+    {
+      "jockey": "ロケット",
+      "rides": 17,
+      "wins": 3,
+      "win_rate": 17.6,
+      "place_rate": 41.2,
+      "avg_popularity": 3.6
+    },
+    {
+      "jockey": "増沢末夫",
+      "rides": 3319,
+      "wins": 572,
+      "win_rate": 17.2,
+      "place_rate": 40.6,
+      "avg_popularity": 3.9
+    },
+    {
+      "jockey": "Ｃ．デム",
+      "rides": 867,
+      "wins": 132,
+      "win_rate": 15.2,
+      "place_rate": 40.4,
+      "avg_popularity": 4.2
+    },
+    {
+      "jockey": "ウー",
+      "rides": 5,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 40.0,
+      "avg_popularity": 9.0
+    },
+    {
+      "jockey": "ツェ",
+      "rides": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "place_rate": 40.0,
+      "avg_popularity": 6.4
+    },
+    {
+      "jockey": "井上幹太",
+      "rides": 5,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 40.0,
+      "avg_popularity": 10.4
+    },
+    {
+      "jockey": "吉井章",
+      "rides": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "place_rate": 40.0,
+      "avg_popularity": 10.4
+    },
+    {
+      "jockey": "堀千亜樹",
+      "rides": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "place_rate": 40.0,
+      "avg_popularity": 9.2
+    },
+    {
+      "jockey": "松木大地",
+      "rides": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "place_rate": 40.0,
+      "avg_popularity": 8.2
+    },
+    {
+      "jockey": "ペリエ",
+      "rides": 2306,
+      "wins": 379,
+      "win_rate": 16.4,
+      "place_rate": 39.9,
+      "avg_popularity": 4.1
+    },
+    {
+      "jockey": "臼井武",
+      "rides": 467,
+      "wins": 67,
+      "win_rate": 14.3,
+      "place_rate": 39.6,
+      "avg_popularity": 4.8
+    },
+    {
+      "jockey": "ソーント",
+      "rides": 18,
+      "wins": 3,
+      "win_rate": 16.7,
+      "place_rate": 38.9,
+      "avg_popularity": 3.7
+    },
+    {
+      "jockey": "ラム",
+      "rides": 18,
+      "wins": 4,
+      "win_rate": 22.2,
+      "place_rate": 38.9,
+      "avg_popularity": 3.4
+    },
+    {
+      "jockey": "竹原啓二",
+      "rides": 1043,
+      "wins": 141,
+      "win_rate": 13.5,
+      "place_rate": 38.3,
+      "avg_popularity": 4.6
+    },
+    {
+      "jockey": "富田正信",
+      "rides": 320,
+      "wins": 26,
+      "win_rate": 8.1,
+      "place_rate": 37.8,
+      "avg_popularity": 5.3
+    },
+    {
+      "jockey": "河内洋",
+      "rides": 9336,
+      "wins": 1360,
+      "win_rate": 14.6,
+      "place_rate": 37.3,
+      "avg_popularity": 4.4
+    },
+    {
+      "jockey": "川田将雅",
+      "rides": 10961,
+      "wins": 1635,
+      "win_rate": 14.9,
+      "place_rate": 36.9,
+      "avg_popularity": 4.9
+    },
+    {
+      "jockey": "秋山忠一",
+      "rides": 433,
+      "wins": 66,
+      "win_rate": 15.2,
+      "place_rate": 36.7,
+      "avg_popularity": 5.1
+    },
+    {
+      "jockey": "南井克巳",
+      "rides": 8055,
+      "wins": 1017,
+      "win_rate": 12.6,
+      "place_rate": 36.6,
+      "avg_popularity": 4.8
+    },
+    {
+      "jockey": "戸崎圭太",
+      "rides": 8115,
+      "wins": 1147,
+      "win_rate": 14.1,
+      "place_rate": 36.5,
+      "avg_popularity": 4.3
+    },
+    {
+      "jockey": "ナカタニ",
+      "rides": 52,
+      "wins": 7,
+      "win_rate": 13.5,
+      "place_rate": 36.5,
+      "avg_popularity": 5.7
+    },
+    {
+      "jockey": "ホワイト",
+      "rides": 450,
+      "wins": 64,
+      "win_rate": 14.2,
+      "place_rate": 36.2,
+      "avg_popularity": 5.4
+    },
+    {
+      "jockey": "池添兼雄",
+      "rides": 271,
+      "wins": 40,
+      "win_rate": 14.8,
+      "place_rate": 36.2,
+      "avg_popularity": 4.4
+    },
+    {
+      "jockey": "横山典弘",
+      "rides": 20485,
+      "wins": 2854,
+      "win_rate": 13.9,
+      "place_rate": 36.1,
+      "avg_popularity": 4.6
+    },
+    {
+      "jockey": "押田年郎",
+      "rides": 515,
+      "wins": 62,
+      "win_rate": 12.0,
+      "place_rate": 35.7,
+      "avg_popularity": 5.6
+    },
+    {
+      "jockey": "Ｍデムー",
+      "rides": 1656,
+      "wins": 231,
+      "win_rate": 13.9,
+      "place_rate": 35.5,
+      "avg_popularity": 4.5
+    },
+    {
+      "jockey": "リスポリ",
+      "rides": 257,
+      "wins": 40,
+      "win_rate": 15.6,
+      "place_rate": 35.4,
+      "avg_popularity": 4.2
+    },
+    {
+      "jockey": "福永祐一",
+      "rides": 18638,
+      "wins": 2475,
+      "win_rate": 13.3,
+      "place_rate": 34.9,
+      "avg_popularity": 4.8
+    },
+    {
+      "jockey": "アヴドゥ",
+      "rides": 173,
+      "wins": 22,
+      "win_rate": 12.7,
+      "place_rate": 34.7,
+      "avg_popularity": 5.2
+    },
+    {
+      "jockey": "岩田康誠",
+      "rides": 14096,
+      "wins": 1681,
+      "win_rate": 11.9,
+      "place_rate": 34.4,
+      "avg_popularity": 4.9
+    },
+    {
+      "jockey": "平田秀也",
+      "rides": 294,
+      "wins": 34,
+      "win_rate": 11.6,
+      "place_rate": 34.4,
+      "avg_popularity": 5.0
+    },
+    {
+      "jockey": "ボウマン",
+      "rides": 184,
+      "wins": 23,
+      "win_rate": 12.5,
+      "place_rate": 34.2,
+      "avg_popularity": 5.4
+    },
+    {
+      "jockey": "サンチェ",
+      "rides": 124,
+      "wins": 14,
+      "win_rate": 11.3,
+      "place_rate": 33.9,
+      "avg_popularity": 6.1
+    },
+    {
+      "jockey": "アスムッ",
+      "rides": 56,
+      "wins": 6,
+      "win_rate": 10.7,
+      "place_rate": 33.9,
+      "avg_popularity": 5.4
+    },
+    {
+      "jockey": "パートン",
+      "rides": 107,
+      "wins": 19,
+      "win_rate": 17.8,
+      "place_rate": 33.6,
+      "avg_popularity": 5.8
+    },
+    {
+      "jockey": "菅原泰夫",
+      "rides": 2046,
+      "wins": 239,
+      "win_rate": 11.7,
+      "place_rate": 33.4,
+      "avg_popularity": 5.4
+    },
+    {
+      "jockey": "田口光雄",
+      "rides": 84,
+      "wins": 5,
+      "win_rate": 6.0,
+      "place_rate": 33.3,
+      "avg_popularity": 6.6
+    },
+    {
+      "jockey": "デイ",
+      "rides": 33,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 33.3,
+      "avg_popularity": 6.0
+    },
+    {
+      "jockey": "田中道夫",
+      "rides": 15,
+      "wins": 2,
+      "win_rate": 13.3,
+      "place_rate": 33.3,
+      "avg_popularity": 6.2
+    },
+    {
+      "jockey": "ヴェラス",
+      "rides": 12,
+      "wins": 1,
+      "win_rate": 8.3,
+      "place_rate": 33.3,
+      "avg_popularity": 7.4
+    },
+    {
+      "jockey": "キム",
+      "rides": 9,
+      "wins": 2,
+      "win_rate": 22.2,
+      "place_rate": 33.3,
+      "avg_popularity": 8.4
+    },
+    {
+      "jockey": "チン",
+      "rides": 9,
+      "wins": 2,
+      "win_rate": 22.2,
+      "place_rate": 33.3,
+      "avg_popularity": 5.8
+    },
+    {
+      "jockey": "マーシャ",
+      "rides": 9,
+      "wins": 1,
+      "win_rate": 11.1,
+      "place_rate": 33.3,
+      "avg_popularity": 5.3
+    },
+    {
+      "jockey": "コーツィ",
+      "rides": 6,
+      "wins": 1,
+      "win_rate": 16.7,
+      "place_rate": 33.3,
+      "avg_popularity": 3.8
+    },
+    {
+      "jockey": "シャヴェ",
+      "rides": 6,
+      "wins": 1,
+      "win_rate": 16.7,
+      "place_rate": 33.3,
+      "avg_popularity": 8.0
+    },
+    {
+      "jockey": "スチュワ",
+      "rides": 6,
+      "wins": 1,
+      "win_rate": 16.7,
+      "place_rate": 33.3,
+      "avg_popularity": 4.3
+    },
+    {
+      "jockey": "ダシルヴ",
+      "rides": 6,
+      "wins": 1,
+      "win_rate": 16.7,
+      "place_rate": 33.3,
+      "avg_popularity": 10.8
+    },
+    {
+      "jockey": "フォリー",
+      "rides": 6,
+      "wins": 1,
+      "win_rate": 16.7,
+      "place_rate": 33.3,
+      "avg_popularity": 2.8
+    },
+    {
+      "jockey": "ヘリヤー",
+      "rides": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "place_rate": 33.3,
+      "avg_popularity": 7.0
+    },
+    {
+      "jockey": "アントレ",
+      "rides": 3,
+      "wins": 1,
+      "win_rate": 33.3,
+      "place_rate": 33.3,
+      "avg_popularity": 6.0
+    },
+    {
+      "jockey": "サミン",
+      "rides": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 33.3,
+      "avg_popularity": 8.0
+    },
+    {
+      "jockey": "モンチョ",
+      "rides": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 33.3,
+      "avg_popularity": 7.3
+    },
+    {
+      "jockey": "久保田信",
+      "rides": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 33.3,
+      "avg_popularity": 9.0
+    },
+    {
+      "jockey": "吉留孝司",
+      "rides": 3,
+      "wins": 1,
+      "win_rate": 33.3,
+      "place_rate": 33.3,
+      "avg_popularity": 14.7
+    },
+    {
+      "jockey": "大沢健司",
+      "rides": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 33.3,
+      "avg_popularity": 10.0
+    },
+    {
+      "jockey": "石川夏子",
+      "rides": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "place_rate": 33.3,
+      "avg_popularity": 11.3
+    },
+    {
+      "jockey": "嶋田功",
+      "rides": 703,
+      "wins": 74,
+      "win_rate": 10.5,
+      "place_rate": 32.9,
+      "avg_popularity": 5.1
+    },
+    {
+      "jockey": "ヒューイ",
+      "rides": 152,
+      "wins": 19,
+      "win_rate": 12.5,
+      "place_rate": 32.9,
+      "avg_popularity": 4.7
+    },
+    {
+      "jockey": "大江原哲",
+      "rides": 796,
+      "wins": 100,
+      "win_rate": 12.6,
+      "place_rate": 32.8,
+      "avg_popularity": 5.9
+    },
+    {
+      "jockey": "嘉堂信雄",
+      "rides": 1392,
+      "wins": 157,
+      "win_rate": 11.3,
+      "place_rate": 32.7,
+      "avg_popularity": 5.3
+    },
+    {
+      "jockey": "的場均",
+      "rides": 8492,
+      "wins": 990,
+      "win_rate": 11.7,
+      "place_rate": 32.6,
+      "avg_popularity": 5.3
+    },
+    {
+      "jockey": "藤田伸二",
+      "rides": 15363,
+      "wins": 1918,
+      "win_rate": 12.5,
+      "place_rate": 32.4,
+      "avg_popularity": 5.3
+    },
+    {
+      "jockey": "ソト",
+      "rides": 122,
+      "wins": 16,
+      "win_rate": 13.1,
+      "place_rate": 32.0,
+      "avg_popularity": 5.6
+    },
+    {
+      "jockey": "蛯名正義",
+      "rides": 21284,
+      "wins": 2541,
+      "win_rate": 11.9,
+      "place_rate": 31.9,
+      "avg_popularity": 5.3
+    },
+    {
+      "jockey": "エスピノ",
+      "rides": 47,
+      "wins": 6,
+      "win_rate": 12.8,
+      "place_rate": 31.9,
+      "avg_popularity": 5.4
+    },
+    {
+      "jockey": "田原成貴",
+      "rides": 5003,
+      "wins": 573,
+      "win_rate": 11.5,
+      "place_rate": 31.5,
+      "avg_popularity": 5.0
+    },
+    {
+      "jockey": "広松孝司",
+      "rides": 178,
+      "wins": 16,
+      "win_rate": 9.0,
+      "place_rate": 31.5,
+      "avg_popularity": 5.7
+    },
+    {
+      "jockey": "後藤浩輝",
+      "rides": 12990,
+      "wins": 1447,
+      "win_rate": 11.1,
+      "place_rate": 31.4,
+      "avg_popularity": 5.7
+    },
+    {
+      "jockey": "ビュイッ",
+      "rides": 338,
+      "wins": 42,
+      "win_rate": 12.4,
+      "place_rate": 31.4,
+      "avg_popularity": 5.0
+    }
+  ],
+  "courses": [
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": null,
+      "races": 17799,
+      "avg_trifecta": null,
+      "longshot_place_pct": 48.2
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": null,
+      "races": 17719,
+      "avg_trifecta": null,
+      "longshot_place_pct": 48.6
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": null,
+      "races": 16960,
+      "avg_trifecta": null,
+      "longshot_place_pct": 49.3
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": null,
+      "races": 16545,
+      "avg_trifecta": null,
+      "longshot_place_pct": 48.1
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": null,
+      "races": 10595,
+      "avg_trifecta": null,
+      "longshot_place_pct": 50.3
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": null,
+      "races": 10520,
+      "avg_trifecta": null,
+      "longshot_place_pct": 53.5
+    },
+    {
+      "track": "小倉",
+      "surface": "",
+      "distance": null,
+      "races": 10108,
+      "avg_trifecta": null,
+      "longshot_place_pct": 50.3
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": null,
+      "races": 9380,
+      "avg_trifecta": null,
+      "longshot_place_pct": 52.5
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": null,
+      "races": 6213,
+      "avg_trifecta": null,
+      "longshot_place_pct": 44.0
+    },
+    {
+      "track": "函館",
+      "surface": "",
+      "distance": null,
+      "races": 6099,
+      "avg_trifecta": null,
+      "longshot_place_pct": 41.4
+    }
+  ],
   "wild_conditions": []
 }
