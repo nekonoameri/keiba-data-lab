@@ -46,7 +46,8 @@ jobs:
           https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0109202604061020260920%2FBB
           EOF
           cd site
-          if [ -s keiba.db ]; then
+          DB_RACES=$(python -c 'import sqlite3; c=sqlite3.connect("keiba.db"); print(c.execute("select count(*) from races").fetchone()[0])' 2>/dev/null || echo 0)
+          if [ "$DB_RACES" -ge 1000 ]; then
             python jra_result_adapter.py latest-jra-results.txt --delay 1.0
             python validate_data.py
             python build_site_data.py
