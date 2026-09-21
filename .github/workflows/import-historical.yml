@@ -6,6 +6,8 @@ on:
       - '.github/workflows/import-historical.yml'
       - 'site/import_historical_dataset.py'
       - 'site/build_site_data.py'
+      - 'site/fetch_jra_pdfs.py'
+      - 'site/jra_pdf_adapter.py'
 jobs:
   import:
     runs-on: ubuntu-latest
@@ -16,9 +18,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Download CC BY 4.0 historical dataset
+      - name: Install pipeline dependencies
+        run: python -m pip install kagglehub requests beautifulsoup4 pypdf fonttools
+      - name: Download historical dataset
         run: |
-          python -m pip install kagglehub
           python - <<'PY'
           import kagglehub, shutil
           from pathlib import Path
@@ -30,8 +33,6 @@ jobs:
           for key in ("odds","laptime","corner_passing_order"):
               matches=[x for x in files if key in x.name]
               if matches: shutil.copy2(matches[0], f"site/data/historical_{key}.csv")
-          print("dataset CSV files:")
-          for x in files: print(x.name, x.stat().st_size)
           print("race result:",race[0])
           PY
       - name: Normalize historical runners and inventory extras
@@ -47,7 +48,6 @@ jobs:
               with p.open(encoding="utf-8-sig",errors="replace") as f:
                   rd=csv.reader(f); header=next(rd); n=sum(1 for _ in rd)
               out[key]={"rows":n,"columns":header}
-          # Build compact race-level analytics from odds + lap tables.
           def num(v):
               try: return float(str(v).replace(",",""))
               except: return None
@@ -74,27 +74,54 @@ jobs:
           (root/"historical-extra-manifest.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
           print(out); print("analytics",len(vals),"trifecta",len(tri))
           PY
-      - name: Verify non-empty
-        run: |
-          python - <<'PY'
-          import csv
-          p="site/runners.csv"
-          n=sum(1 for _ in csv.DictReader(open(p,encoding="utf-8")))
-          print("historical runners:",n)
-          if n < 1000: raise SystemExit("historical import unexpectedly small")
-          PY
-      - name: Build site from historical data
+      - name: Build historical database
         run: |
           cd site
           python import_csv.py
+          python - <<'PY'
+          import sqlite3
+          c=sqlite3.connect("keiba.db")
+          print("historical DB",c.execute("select count(*) from races").fetchone()[0],"races")
+          PY
+      - name: Fetch and append official JRA PDFs for 2022-2026
+        shell: bash
+        run: |
+          cd site
+          rm -rf data/jra_pdf
+          for YEAR in 2022 2023 2024 2025 2026; do
+            python fetch_jra_pdfs.py --year "$YEAR" --delay 0.15
+          done
+          PDF_COUNT=$(find data/jra_pdf -name '*.pdf' | wc -l)
+          echo "official PDFs: $PDF_COUNT"
+          test "$PDF_COUNT" -ge 1000
+          python jra_pdf_adapter.py data/jra_pdf/*.pdf
+          python import_csv.py
+      - name: Validate unified coverage and build site
+        run: |
+          cd site
           python validate_data.py
+          python - <<'PY'
+          import sqlite3,json
+          c=sqlite3.connect("keiba.db")
+          row=c.execute("select min(race_date),max(race_date),count(*) from races").fetchone()
+          runners=c.execute("select count(*) from runners").fetchone()[0]
+          cov=c.execute("""select
+            sum(case when surface is not null and surface<>'' then 1 else 0 end),
+            sum(case when distance is not null then 1 else 0 end),
+            sum(case when trifecta_payout is not null then 1 else 0 end)
+            from races""").fetchone()
+          print("UNIFIED COVERAGE",row,"runners",runners,"surface/distance/trifecta",cov)
+          if row[2] < 122000: raise SystemExit("unified race count unexpectedly small")
+          if not row[1] or row[1] < "2026-01-01": raise SystemExit("2026 data was not appended")
+          PY
           python build_site_data.py
           python generate_db_race_pages.py
       - name: Commit generated site data only
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          rm -f site/runners.csv site/data/historical_race_result.csv site/data/historical_odds.csv site/data/historical_laptime.csv site/data/historical_corner_passing_order.csv
-          git add -f site/site-data.json site/site-data.js site/data/db-race-page-manifest.json site/data/historical-extra-manifest.json site/data/historical-analytics.json site/race-archive.html || true
-          git commit -m "Build site from historical JRA data" || exit 0
+          rm -f site/keiba.db site/runners.csv site/races.csv site/data/historical_race_result.csv site/data/historical_odds.csv site/data/historical_laptime.csv site/data/historical_corner_passing_order.csv
+          rm -rf site/data/jra_pdf
+          git add -f site/site-data.json site/site-data.js site/data/db-race-page-manifest.json site/data/historical-extra-manifest.json site/data/historical-analytics.json site/race-archive.html site/races || true
+          git commit -m "Build unified JRA data through 2026" || exit 0
           git push
