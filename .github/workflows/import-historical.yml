@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install pipeline dependencies
-        run: python -m pip install kagglehub requests beautifulsoup4 pypdf fonttools
+        run: python -m pip install kagglehub requests beautifulsoup4 pypdf pymupdf fonttools
       - name: Download historical dataset
         run: |
           python - <<'PY'
