@@ -33,8 +33,9 @@ jobs:
           for x in files: print(x.name, x.stat().st_size)
           print("race result:",race[0])
           PY
-      - name: Normalize historical runners
-        run: python site/import_historical_dataset.py site/data/historical_race_result.csv --out runners.csv
+      - name: Normalize historical runners and inventory extras
+        run: |
+          python site/import_historical_dataset.py site/data/historical_race_result.csv --out runners.csv
           python - <<'PY'
           import csv,json
           from pathlib import Path
