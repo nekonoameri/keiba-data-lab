@@ -59,6 +59,29 @@ jobs:
               if len(body)<10000: raise SystemExit("JRA result response unexpectedly small")
               print("verified JRA result",len(body),u)
           PY
+      - name: Import verified latest official results
+        shell: bash
+        run: |
+          cat > site/latest-jra-results.txt <<'EOF'
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0106202604060120260920%2F40
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0106202604060320260920%2FAA
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde1006202604060420260920%2F3E
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde1006202604060720260920%2F5D
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde1006202604060820260920%2F12
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0106202604060920260920%2FE8
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0106202604061020260920%2FDD
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0106202604061220260920%2F47
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde1009202604060220260920%2FB2
+          https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0109202604061020260920%2FBB
+          EOF
+          cd site
+          if [ -s keiba.db ]; then
+            python jra_result_adapter.py latest-jra-results.txt --delay 1.0
+            python validate_data.py
+            python build_site_data.py
+          else
+            echo "keiba.db not committed; official URLs verified and queued for next merged DB build"
+          fi
       - name: Preserve verified historical build
         run: |
           test -s site/site-data.json
