@@ -3,8 +3,12 @@ const wild=d.wild_races||[],j=d.jockey_rankings||[],c=d.wild_conditions||[];
 set(tables.find(t=>/過去の荒れレースランキング/.test(t.closest('.panel')?.innerText||'')),wild.slice(0,10).map((x,i)=>'<tr><td class="rank">'+(i+1)+'</td><td>'+e(x.race_date)+'</td><td>'+e(x.track)+' '+e(x.race_no)+'R '+e(x.race_name)+'</td><td>'+e(x.surface)+(x.distance?e(x.distance)+'m':'')+'</td><td class="money">'+Number(x.trifecta_payout||0).toLocaleString()+'円</td><td class="hide-mobile">'+e(x.popularity_top3)+'</td></tr>'));
 set(tables.find(t=>/今週の騎手ランキング/.test(t.closest('.panel')?.innerText||'')),j.slice(0,10).map((x,i)=>'<tr><td class="rank">'+(i+1)+'</td><td>'+e(x.jockey)+'</td><td>'+e(x.win_rate)+'%</td><td>'+e(x.place_rate)+'%</td></tr>'));
 set(tables.find(t=>/荒れやすいレース条件/.test(t.closest('.panel')?.innerText||'')),c.slice(0,5).map((x,i)=>'<tr><td>'+(i+1)+'</td><td>'+e(x.track)+' '+e(x.surface)+e(x.distance)+'m</td><td class="score">10万超 '+e(x.pct_100k)+'%</td></tr>'));
-const h=[]; // Upcoming-week ranking must only use confirmed JRA ride declarations; historical riders must not be substituted.
-const ht=tables.find(t=>/今週の穴騎手ランキング/.test(t.closest('.panel')?.innerText||'')); if(ht){body(ht).innerHTML='<tr><td colspan="4" class="muted">今週のJRA騎乗予定を確認できるまでランキングは表示しません。</td></tr>'}
+const confirmedToday=["内田 博幸","長浜 鴻緒","丹内 祐次","武藤 雅","小林 美駒","横山 武史","佐々木 大輔","原 優介"];
+const norm=s=>String(s||"").replace(/[◇☆▲△]/g,"").replace(/\s+/g,"");
+const confirmedSet=new Set(confirmedToday.map(norm));
+const h=j.filter(x=>confirmedSet.has(norm(x.jockey))&&Number(x.avg_popularity)>=4&&Number(x.longshot_place_rate)>=0)
+ .sort((a,b)=>Number(b.longshot_place_rate)-Number(a.longshot_place_rate)||Number(b.rides)-Number(a.rides));
+const ht=tables.find(t=>/今週の穴騎手ランキング/.test(t.closest('.panel')?.innerText||'')); if(ht){body(ht).innerHTML=h.length?h.slice(0,10).map((x,i)=>'<tr><td class="rank">'+(i+1)+'</td><td>'+e(x.jockey)+'</td><td class="money">穴複勝 '+e(x.longshot_place_rate)+'%</td><td>'+e(x.place_rate)+'%</td></tr>').join(''):'<tr><td colspan="4" class="muted">本日のJRA騎乗騎手と成績データを照合中です。</td></tr>'}
 
 const dir=document.getElementById('jockey-directory'),qs=document.getElementById('jockey-search');if(dir){const all=j.slice().sort((a,b)=>Number(b.rides)-Number(a.rides));const render=q=>{q=(q||'').trim();const rows=all.filter(x=>!q||String(x.jockey).includes(q)).slice(0,120);dir.innerHTML=rows.length?rows.map(x=>'<a class="card" href="jockey.html?j='+encodeURIComponent(x.jockey)+'"><strong>'+e(x.jockey)+'</strong><span class="mini">'+Number(x.rides||0).toLocaleString()+'騎乗 / 勝率 '+e(x.win_rate)+'% / 複勝率 '+e(x.place_rate)+'% →</span></a>').join(''):'<div class="empty">該当する騎手がいません。</div>'};render('');qs&&qs.addEventListener('input',()=>render(qs.value));}
 })();
