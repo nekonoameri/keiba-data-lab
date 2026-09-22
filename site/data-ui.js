@@ -6,7 +6,7 @@ set(tables.find(t=>/荒れやすいレース条件/.test(t.closest('.panel')?.in
 const confirmedToday=(window.KEIBA_DATA&&window.KEIBA_DATA.current_jockeys)||[];
 const norm=s=>String(s||"").replace(/[◇☆▲△]/g,"").replace(/\s+/g,"");
 const confirmedSet=new Set(confirmedToday.map(norm));
-const h=j.filter(x=>confirmedSet.has(norm(x.jockey))&&Number(x.avg_popularity)>=4&&Number(x.longshot_place_rate)>=0)
+const h=j.filter(x=>confirmedSet.has(norm(x.jockey))&&Number(x.avg_popularity)>=4&&Number(x.longshot_rides)>=10&&Number(x.longshot_place_rate)>=0)
  .sort((a,b)=>Number(b.longshot_place_rate)-Number(a.longshot_place_rate)||Number(b.rides)-Number(a.rides));
 const ht=tables.find(t=>/今週の穴騎手ランキング/.test(t.closest('.panel')?.innerText||'')); if(ht){body(ht).innerHTML=h.length?h.slice(0,10).map((x,i)=>'<tr><td class="rank">'+(i+1)+'</td><td>'+e(x.jockey)+'</td><td class="money">穴複勝 '+e(x.longshot_place_rate)+'%</td><td>'+e(x.place_rate)+'%</td></tr>').join(''):'<tr><td colspan="4" class="muted">本日のJRA騎乗騎手と成績データを照合中です。</td></tr>'}
 
