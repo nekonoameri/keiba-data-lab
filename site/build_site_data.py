@@ -24,3 +24,5 @@ out={'meta':{'min_date':mn,'max_date':mx,'race_count':rc,'runner_count':rn},'rec
 (root/'site-data.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 (root/'site-data.js').write_text('window.KEIBA_DATA='+json.dumps(out,ensure_ascii=False)+';',encoding='utf-8')
 print('wrote site-data.json + site-data.js')
+
+# rebuild-marker: corrected-current-jockeys-v2
