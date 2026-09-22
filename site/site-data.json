@@ -1,185 +1,17 @@
 {
   "meta": {
     "min_date": "1986-01-05",
-    "max_date": "2021-07-31",
-    "race_count": 121938,
-    "runner_count": 1626608
+    "max_date": "2026-12-20",
+    "race_count": 139846,
+    "runner_count": 1716844
   },
   "recent_races": [
     {
-      "race_id": "202102010912",
-      "race_date": "2021-07-31",
-      "track": "函館",
-      "race_no": 12,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030312",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 12,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010911",
-      "race_date": "2021-07-31",
-      "track": "函館",
-      "race_no": 11,
-      "race_name": "STV杯",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030311",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 11,
-      "race_name": "佐渡ステークス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010910",
-      "race_date": "2021-07-31",
-      "track": "函館",
-      "race_no": 10,
-      "race_name": "美利河特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030310",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 10,
-      "race_name": "月岡温泉特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010909",
-      "race_date": "2021-07-31",
-      "track": "函館",
-      "race_no": 9,
-      "race_name": "八甲田山特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030309",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 9,
-      "race_name": "麒麟山特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010908",
-      "race_date": "2021-07-31",
-      "track": "函館",
-      "race_no": 8,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030308",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 8,
-      "race_name": "新潟ジャンプS",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010907",
-      "race_date": "2021-07-31",
-      "track": "函館",
-      "race_no": 7,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030307",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 7,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010906",
-      "race_date": "2021-07-31",
-      "track": "函館",
-      "race_no": 6,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030306",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 6,
-      "race_name": "2歳新馬",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010905",
-      "race_date": "2021-07-31",
+      "race_id": "20261220-函館-05",
+      "race_date": "2026-12-20",
       "track": "函館",
       "race_no": 5,
-      "race_name": "2歳新馬",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -187,23 +19,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030305",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 5,
-      "race_name": "2歳新馬",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010904",
-      "race_date": "2021-07-31",
-      "track": "函館",
+      "race_id": "20261207-東京-04",
+      "race_date": "2026-12-07",
+      "track": "東京",
       "race_no": 4,
-      "race_name": "3歳未勝利",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -211,71 +31,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030304",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 4,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010903",
-      "race_date": "2021-07-31",
-      "track": "函館",
-      "race_no": 3,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030303",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 3,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010902",
-      "race_date": "2021-07-31",
-      "track": "函館",
-      "race_no": 2,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030302",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 2,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010901",
-      "race_date": "2021-07-31",
-      "track": "函館",
+      "race_id": "20261112-札幌-01",
+      "race_date": "2026-11-12",
+      "track": "札幌",
       "race_no": 1,
-      "race_name": "2歳未勝利",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -283,263 +43,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030301",
-      "race_date": "2021-07-31",
-      "track": "新潟",
-      "race_no": 1,
-      "race_name": "2歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010812",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 12,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030212",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 12,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010811",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 11,
-      "race_name": "UHB杯",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030211",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 11,
-      "race_name": "アイビスサマーD",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010810",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 10,
-      "race_name": "立待岬特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030210",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 10,
-      "race_name": "糸魚川特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010809",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 9,
-      "race_name": "北海ハンデキャップ",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030209",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 9,
-      "race_name": "苗場特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010808",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 8,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030208",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 8,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010807",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 7,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030207",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 7,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010806",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 6,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030206",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 6,
-      "race_name": "2歳新馬",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010805",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 5,
-      "race_name": "2歳新馬",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030205",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 5,
-      "race_name": "2歳新馬",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010804",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 4,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030204",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 4,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010803",
-      "race_date": "2021-07-25",
-      "track": "函館",
-      "race_no": 3,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030203",
-      "race_date": "2021-07-25",
-      "track": "新潟",
-      "race_no": 3,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010802",
-      "race_date": "2021-07-25",
-      "track": "函館",
+      "race_id": "20261106-東京-02",
+      "race_date": "2026-11-06",
+      "track": "東京",
       "race_no": 2,
-      "race_name": "3歳未勝利",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -547,23 +55,47 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030202",
-      "race_date": "2021-07-25",
-      "track": "新潟",
+      "race_id": "20261101-東京-03",
+      "race_date": "2026-11-01",
+      "track": "東京",
+      "race_no": 3,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261030-東京-05",
+      "race_date": "2026-10-30",
+      "track": "東京",
+      "race_no": 5,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261030-東京-02",
+      "race_date": "2026-10-30",
+      "track": "東京",
       "race_no": 2,
-      "race_name": "3歳未勝利",
+      "race_name": "",
       "surface": "",
-      "distance": null,
+      "distance": 2000,
       "going": "",
       "trifecta_payout": null,
       "source_url": ""
     },
     {
-      "race_id": "202102010801",
-      "race_date": "2021-07-25",
-      "track": "函館",
+      "race_id": "20261030-京都-01",
+      "race_date": "2026-10-30",
+      "track": "京都",
       "race_no": 1,
-      "race_name": "2歳未勝利",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -571,11 +103,227 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030201",
-      "race_date": "2021-07-25",
+      "race_id": "20261029-中京-12",
+      "race_date": "2026-10-29",
+      "track": "中京",
+      "race_no": 12,
+      "race_name": "",
+      "surface": "",
+      "distance": 2026,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261029-東京-05",
+      "race_date": "2026-10-29",
+      "track": "東京",
+      "race_no": 5,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261029-中京-04",
+      "race_date": "2026-10-29",
+      "track": "中京",
+      "race_no": 4,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261029-東京-03",
+      "race_date": "2026-10-29",
+      "track": "東京",
+      "race_no": 3,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261029-東京-02",
+      "race_date": "2026-10-29",
+      "track": "東京",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261023-京都-01",
+      "race_date": "2026-10-23",
+      "track": "京都",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261022-東京-04",
+      "race_date": "2026-10-22",
+      "track": "東京",
+      "race_no": 4,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261022-阪神-01",
+      "race_date": "2026-10-22",
+      "track": "阪神",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261019-札幌-03",
+      "race_date": "2026-10-19",
+      "track": "札幌",
+      "race_no": 3,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261019-札幌-01",
+      "race_date": "2026-10-19",
+      "track": "札幌",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261016-新潟-06",
+      "race_date": "2026-10-16",
+      "track": "新潟",
+      "race_no": 6,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261016-東京-02",
+      "race_date": "2026-10-16",
+      "track": "東京",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261015-小倉-05",
+      "race_date": "2026-10-15",
+      "track": "小倉",
+      "race_no": 5,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261015-新潟-05",
+      "race_date": "2026-10-15",
+      "track": "新潟",
+      "race_no": 5,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261015-東京-02",
+      "race_date": "2026-10-15",
+      "track": "東京",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261015-札幌-02",
+      "race_date": "2026-10-15",
+      "track": "札幌",
+      "race_no": 2,
+      "race_name": "（芝・左） 負担重量は、馬齢重量 本 賞 5,900,000円",
+      "surface": "",
+      "distance": null,
+      "going": "良",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261013-新潟-03",
+      "race_date": "2026-10-13",
+      "track": "新潟",
+      "race_no": 3,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261013-京都-02",
+      "race_date": "2026-10-13",
+      "track": "京都",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261013-新潟-01",
+      "race_date": "2026-10-13",
       "track": "新潟",
       "race_no": 1,
-      "race_name": "2歳未勝利",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -583,11 +331,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202102010712",
-      "race_date": "2021-07-24",
-      "track": "函館",
-      "race_no": 12,
-      "race_name": "3歳以上2勝クラス",
+      "race_id": "20261012-京都-05",
+      "race_date": "2026-10-12",
+      "track": "京都",
+      "race_no": 5,
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -595,23 +343,215 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030112",
-      "race_date": "2021-07-24",
+      "race_id": "20261012-東京-02",
+      "race_date": "2026-10-12",
+      "track": "東京",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261009-東京-01",
+      "race_date": "2026-10-09",
+      "track": "東京",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261008-中山-04",
+      "race_date": "2026-10-08",
+      "track": "中山",
+      "race_no": 4,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261005-中京-03",
+      "race_date": "2026-10-05",
+      "track": "中京",
+      "race_no": 3,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261005-阪神-02",
+      "race_date": "2026-10-05",
+      "track": "阪神",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261002-中山-02",
+      "race_date": "2026-10-02",
+      "track": "中山",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261002-阪神-01",
+      "race_date": "2026-10-02",
+      "track": "阪神",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20261001-阪神-01",
+      "race_date": "2026-10-01",
+      "track": "阪神",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260930-京都-04",
+      "race_date": "2026-09-30",
+      "track": "京都",
+      "race_no": 4,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260929-中京-04",
+      "race_date": "2026-09-29",
+      "track": "中京",
+      "race_no": 4,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260926-中山-09",
+      "race_date": "2026-09-26",
+      "track": "中山",
+      "race_no": 9,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260926-東京-02",
+      "race_date": "2026-09-26",
+      "track": "東京",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260926-阪神-01",
+      "race_date": "2026-09-26",
+      "track": "阪神",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260925-東京-02",
+      "race_date": "2026-09-25",
+      "track": "東京",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260925-京都-01",
+      "race_date": "2026-09-25",
+      "track": "京都",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260923-新潟-02",
+      "race_date": "2026-09-23",
       "track": "新潟",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260921-阪神-12",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 12,
       "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
+      "surface": "ダート",
+      "distance": 1400,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 3680369700,
       "source_url": ""
     },
     {
-      "race_id": "202102010711",
-      "race_date": "2021-07-24",
-      "track": "函館",
+      "race_id": "20260921-阪神-11",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 11,
-      "race_name": "TVh杯",
+      "race_name": "第74回神 戸 新 聞 杯（ＧⅡ）",
       "surface": "",
       "distance": null,
       "going": "",
@@ -619,47 +559,23 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030111",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 11,
-      "race_name": "越後ステークス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010710",
-      "race_date": "2021-07-24",
-      "track": "函館",
+      "race_id": "20260921-阪神-10",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 10,
-      "race_name": "噴火湾特別",
-      "surface": "",
-      "distance": null,
+      "race_name": "2016メモリアルキタサンブラックカップ",
+      "surface": "ダート",
+      "distance": 2200,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 351500500,
       "source_url": ""
     },
     {
-      "race_id": "202104030110",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 10,
-      "race_name": "豊栄特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010709",
-      "race_date": "2021-07-24",
-      "track": "函館",
+      "race_id": "20260921-阪神-09",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 9,
-      "race_name": "奥尻特別",
+      "race_name": "新 涼 特 別",
       "surface": "",
       "distance": null,
       "going": "",
@@ -667,45 +583,21 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030109",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 9,
-      "race_name": "燕特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010708",
-      "race_date": "2021-07-24",
-      "track": "函館",
+      "race_id": "20260921-阪神-08",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 8,
       "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
+      "surface": "芝",
+      "distance": 1800,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 266454600,
       "source_url": ""
     },
     {
-      "race_id": "202104030108",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 8,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010707",
-      "race_date": "2021-07-24",
-      "track": "函館",
+      "race_id": "20260921-阪神-07",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 7,
       "race_name": "3歳以上1勝クラス",
       "surface": "",
@@ -715,45 +607,21 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030107",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 7,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010706",
-      "race_date": "2021-07-24",
-      "track": "函館",
+      "race_id": "20260921-阪神-06",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 6,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 2000,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 224974200,
       "source_url": ""
     },
     {
-      "race_id": "202104030106",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 6,
-      "race_name": "2歳新馬",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010705",
-      "race_date": "2021-07-24",
-      "track": "函館",
+      "race_id": "20260921-阪神-05",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 5,
       "race_name": "2歳新馬",
       "surface": "",
@@ -763,82 +631,22 @@
       "source_url": ""
     },
     {
-      "race_id": "202104030105",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 5,
+      "race_id": "20260921-阪神-04",
+      "race_date": "2026-09-21",
+      "track": "阪神",
+      "race_no": 4,
       "race_name": "2歳新馬",
-      "surface": "",
-      "distance": null,
+      "surface": "芝",
+      "distance": 1400,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 227454600,
       "source_url": ""
     },
     {
-      "race_id": "202102010704",
-      "race_date": "2021-07-24",
-      "track": "函館",
-      "race_no": 4,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030104",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 4,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010703",
-      "race_date": "2021-07-24",
-      "track": "函館",
+      "race_id": "20260921-阪神-03",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 3,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030103",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 3,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010702",
-      "race_date": "2021-07-24",
-      "track": "函館",
-      "race_no": 2,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202104030102",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 2,
       "race_name": "2歳未勝利",
       "surface": "",
       "distance": null,
@@ -847,71 +655,59 @@
       "source_url": ""
     },
     {
-      "race_id": "202102010701",
-      "race_date": "2021-07-24",
-      "track": "函館",
+      "race_id": "20260921-阪神-02",
+      "race_date": "2026-09-21",
+      "track": "阪神",
+      "race_no": 2,
+      "race_name": "2歳未勝利",
+      "surface": "芝",
+      "distance": 1600,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260921-阪神-01",
+      "race_date": "2026-09-21",
+      "track": "阪神",
       "race_no": 1,
       "race_name": "2歳未勝利",
-      "surface": "",
+      "surface": "ダート",
       "distance": null,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 218060000,
       "source_url": ""
     },
     {
-      "race_id": "202104030101",
-      "race_date": "2021-07-24",
-      "track": "新潟",
-      "race_no": 1,
-      "race_name": "2歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010612",
-      "race_date": "2021-07-18",
-      "track": "函館",
-      "race_no": 12,
-      "race_name": "湯の川温泉特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202103010612",
-      "race_date": "2021-07-18",
-      "track": "福島",
-      "race_no": 12,
-      "race_name": "3歳以上2勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202110030612",
-      "race_date": "2021-07-18",
-      "track": "小倉",
+      "race_id": "20260920-阪神-12",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 12,
       "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
+      "surface": "芝",
+      "distance": 1400,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 573965900,
       "source_url": ""
     },
     {
-      "race_id": "202102010611",
-      "race_date": "2021-07-18",
-      "track": "函館",
+      "race_id": "20260920-中山-12",
+      "race_date": "2026-09-20",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "going": "",
+      "trifecta_payout": 2804399100,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260920-阪神-11",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 11,
-      "race_name": "函館記念",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -919,11 +715,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010611",
-      "race_date": "2021-07-18",
-      "track": "福島",
+      "race_id": "20260920-中山-11",
+      "race_date": "2026-09-20",
+      "track": "中山",
       "race_no": 11,
-      "race_name": "福島テレビオープン",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -931,23 +727,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202110030611",
-      "race_date": "2021-07-18",
-      "track": "小倉",
-      "race_no": 11,
-      "race_name": "トヨタ賞中京記念",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010610",
-      "race_date": "2021-07-18",
-      "track": "函館",
+      "race_id": "20260920-阪神-10",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 10,
-      "race_name": "渡島特別",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -955,11 +739,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010610",
-      "race_date": "2021-07-18",
-      "track": "福島",
+      "race_id": "20260920-中山-10",
+      "race_date": "2026-09-20",
+      "track": "中山",
       "race_no": 10,
-      "race_name": "安達太良ステークス",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -967,23 +751,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202110030610",
-      "race_date": "2021-07-18",
-      "track": "小倉",
-      "race_no": 10,
-      "race_name": "西部日刊スポーツ杯",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010609",
-      "race_date": "2021-07-18",
-      "track": "函館",
+      "race_id": "20260920-阪神-09",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 9,
-      "race_name": "恵山特別",
+      "race_name": "夕 月 特 別",
       "surface": "",
       "distance": null,
       "going": "",
@@ -991,11 +763,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010609",
-      "race_date": "2021-07-18",
-      "track": "福島",
+      "race_id": "20260920-中山-09",
+      "race_date": "2026-09-20",
+      "track": "中山",
       "race_no": 9,
-      "race_name": "信夫山特別",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1003,57 +775,33 @@
       "source_url": ""
     },
     {
-      "race_id": "202110030609",
-      "race_date": "2021-07-18",
-      "track": "小倉",
-      "race_no": 9,
-      "race_name": "高千穂特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010608",
-      "race_date": "2021-07-18",
-      "track": "函館",
+      "race_id": "20260920-阪神-08",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 8,
       "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
+      "surface": "ダート",
+      "distance": 1600,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 164813400,
       "source_url": ""
     },
     {
-      "race_id": "202103010608",
-      "race_date": "2021-07-18",
-      "track": "福島",
+      "race_id": "20260920-中山-08",
+      "race_date": "2026-09-20",
+      "track": "中山",
       "race_no": 8,
       "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
+      "surface": "芝",
+      "distance": 1200,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 144608000,
       "source_url": ""
     },
     {
-      "race_id": "202110030608",
-      "race_date": "2021-07-18",
-      "track": "小倉",
-      "race_no": 8,
-      "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010607",
-      "race_date": "2021-07-18",
-      "track": "函館",
+      "race_id": "20260920-阪神-07",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 7,
       "race_name": "3歳以上1勝クラス",
       "surface": "",
@@ -1063,21 +811,9 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010607",
-      "race_date": "2021-07-18",
-      "track": "福島",
-      "race_no": 7,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202110030607",
-      "race_date": "2021-07-18",
-      "track": "小倉",
+      "race_id": "20260920-中山-07",
+      "race_date": "2026-09-20",
+      "track": "中山",
       "race_no": 7,
       "race_name": "3歳以上1勝クラス",
       "surface": "",
@@ -1087,45 +823,33 @@
       "source_url": ""
     },
     {
-      "race_id": "202102010606",
-      "race_date": "2021-07-18",
-      "track": "函館",
+      "race_id": "20260920-阪神-06",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 6,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 2000,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 168271000,
       "source_url": ""
     },
     {
-      "race_id": "202103010606",
-      "race_date": "2021-07-18",
-      "track": "福島",
+      "race_id": "20260920-中山-06",
+      "race_date": "2026-09-20",
+      "track": "中山",
       "race_no": 6,
-      "race_name": "2歳新馬",
-      "surface": "",
-      "distance": null,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1800,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 146824600,
       "source_url": ""
     },
     {
-      "race_id": "202110030606",
-      "race_date": "2021-07-18",
-      "track": "小倉",
-      "race_no": 6,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010605",
-      "race_date": "2021-07-18",
-      "track": "函館",
+      "race_id": "20260920-阪神-05",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 5,
       "race_name": "2歳新馬",
       "surface": "",
@@ -1135,9 +859,9 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010605",
-      "race_date": "2021-07-18",
-      "track": "福島",
+      "race_id": "20260920-中山-05",
+      "race_date": "2026-09-20",
+      "track": "中山",
       "race_no": 5,
       "race_name": "2歳新馬",
       "surface": "",
@@ -1147,23 +871,35 @@
       "source_url": ""
     },
     {
-      "race_id": "202110030605",
-      "race_date": "2021-07-18",
-      "track": "小倉",
+      "race_id": "20260920-東京-05",
+      "race_date": "2026-09-20",
+      "track": "東京",
       "race_no": 5,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260920-阪神-04",
+      "race_date": "2026-09-20",
+      "track": "阪神",
+      "race_no": 4,
       "race_name": "2歳新馬",
-      "surface": "",
-      "distance": null,
+      "surface": "芝",
+      "distance": 1200,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 253600900,
       "source_url": ""
     },
     {
-      "race_id": "202102010604",
-      "race_date": "2021-07-18",
-      "track": "函館",
+      "race_id": "20260920-京都-04",
+      "race_date": "2026-09-20",
+      "track": "京都",
       "race_no": 4,
-      "race_name": "3歳未勝利",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1171,35 +907,23 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010604",
-      "race_date": "2021-07-18",
-      "track": "福島",
+      "race_id": "20260920-中山-04",
+      "race_date": "2026-09-20",
+      "track": "中山",
       "race_no": 4,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
+      "race_name": "2歳新馬",
+      "surface": "芝",
+      "distance": 1800,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 163867600,
       "source_url": ""
     },
     {
-      "race_id": "202110030604",
-      "race_date": "2021-07-18",
-      "track": "小倉",
-      "race_no": 4,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010603",
-      "race_date": "2021-07-18",
-      "track": "函館",
+      "race_id": "20260920-阪神-03",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 3,
-      "race_name": "3歳未勝利",
+      "race_name": "2歳未勝利",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1207,11 +931,23 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010603",
-      "race_date": "2021-07-18",
+      "race_id": "20260920-中山-03",
+      "race_date": "2026-09-20",
+      "track": "中山",
+      "race_no": 3,
+      "race_name": "2歳未勝利",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260920-福島-03",
+      "race_date": "2026-09-20",
       "track": "福島",
       "race_no": 3,
-      "race_name": "3歳未勝利",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1219,35 +955,23 @@
       "source_url": ""
     },
     {
-      "race_id": "202110030603",
-      "race_date": "2021-07-18",
-      "track": "小倉",
-      "race_no": 3,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010602",
-      "race_date": "2021-07-18",
-      "track": "函館",
-      "race_no": 2,
-      "race_name": "3歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202103010602",
-      "race_date": "2021-07-18",
-      "track": "福島",
+      "race_id": "20260920-阪神-02",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 2,
       "race_name": "2歳未勝利",
+      "surface": "ダート",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260920-中京-02",
+      "race_date": "2026-09-20",
+      "track": "中京",
+      "race_no": 2,
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1255,95 +979,83 @@
       "source_url": ""
     },
     {
-      "race_id": "202110030602",
-      "race_date": "2021-07-18",
-      "track": "小倉",
+      "race_id": "20260920-中山-02",
+      "race_date": "2026-09-20",
+      "track": "中山",
       "race_no": 2,
       "race_name": "2歳未勝利",
-      "surface": "",
+      "surface": "芝",
       "distance": null,
       "going": "",
       "trifecta_payout": null,
       "source_url": ""
     },
     {
-      "race_id": "202102010601",
-      "race_date": "2021-07-18",
-      "track": "函館",
-      "race_no": 1,
-      "race_name": "2歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202103010601",
-      "race_date": "2021-07-18",
-      "track": "福島",
-      "race_no": 1,
-      "race_name": "2歳未勝利",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202110030601",
-      "race_date": "2021-07-18",
-      "track": "小倉",
+      "race_id": "20260920-阪神-01",
+      "race_date": "2026-09-20",
+      "track": "阪神",
       "race_no": 1,
       "race_name": "障害3歳以上未勝利",
-      "surface": "",
-      "distance": null,
+      "surface": "芝",
+      "distance": 2970,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 126725800,
       "source_url": ""
     },
     {
-      "race_id": "202102010512",
-      "race_date": "2021-07-17",
-      "track": "函館",
-      "race_no": 12,
-      "race_name": "かもめ島特別",
-      "surface": "",
+      "race_id": "20260920-中山-01",
+      "race_date": "2026-09-20",
+      "track": "中山",
+      "race_no": 1,
+      "race_name": "2歳未勝利",
+      "surface": "ダート",
       "distance": null,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 138151400,
       "source_url": ""
     },
     {
-      "race_id": "202103010512",
-      "race_date": "2021-07-17",
+      "race_id": "20260920-福島-01",
+      "race_date": "2026-09-20",
       "track": "福島",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-阪神-12",
+      "race_date": "2026-09-19",
+      "track": "阪神",
       "race_no": 12,
       "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
+      "surface": "ダート",
+      "distance": 1200,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 252611000,
       "source_url": ""
     },
     {
-      "race_id": "202110030512",
-      "race_date": "2021-07-17",
-      "track": "小倉",
+      "race_id": "20260919-中山-12",
+      "race_date": "2026-09-19",
+      "track": "中山",
       "race_no": 12,
       "race_name": "3歳以上1勝クラス",
-      "surface": "",
-      "distance": null,
+      "surface": "ダート",
+      "distance": 1200,
       "going": "",
-      "trifecta_payout": null,
+      "trifecta_payout": 578992500,
       "source_url": ""
     },
     {
-      "race_id": "202102010511",
-      "race_date": "2021-07-17",
-      "track": "函館",
+      "race_id": "20260919-阪神-11",
+      "race_date": "2026-09-19",
+      "track": "阪神",
       "race_no": 11,
-      "race_name": "函館2歳ステークス",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1351,11 +1063,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010511",
-      "race_date": "2021-07-17",
-      "track": "福島",
+      "race_id": "20260919-中山-11",
+      "race_date": "2026-09-19",
+      "track": "中山",
       "race_no": 11,
-      "race_name": "ジュライステークス",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1363,23 +1075,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202110030511",
-      "race_date": "2021-07-17",
-      "track": "小倉",
-      "race_no": 11,
-      "race_name": "不知火ステークス",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010510",
-      "race_date": "2021-07-17",
-      "track": "函館",
+      "race_id": "20260919-阪神-10",
+      "race_date": "2026-09-19",
+      "track": "阪神",
       "race_no": 10,
-      "race_name": "湯浜特別",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1387,11 +1087,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010510",
-      "race_date": "2021-07-17",
-      "track": "福島",
+      "race_id": "20260919-中山-10",
+      "race_date": "2026-09-19",
+      "track": "中山",
       "race_no": 10,
-      "race_name": "横手特別",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1399,21 +1099,9 @@
       "source_url": ""
     },
     {
-      "race_id": "202110030510",
-      "race_date": "2021-07-17",
-      "track": "小倉",
-      "race_no": 10,
-      "race_name": "岩国特別",
-      "surface": "",
-      "distance": null,
-      "going": "",
-      "trifecta_payout": null,
-      "source_url": ""
-    },
-    {
-      "race_id": "202102010509",
-      "race_date": "2021-07-17",
-      "track": "函館",
+      "race_id": "20260919-阪神-09",
+      "race_date": "2026-09-19",
+      "track": "阪神",
       "race_no": 9,
       "race_name": "3歳以上1勝クラス",
       "surface": "",
@@ -1423,11 +1111,11 @@
       "source_url": ""
     },
     {
-      "race_id": "202103010509",
-      "race_date": "2021-07-17",
-      "track": "福島",
+      "race_id": "20260919-中山-09",
+      "race_date": "2026-09-19",
+      "track": "中山",
       "race_no": 9,
-      "race_name": "南相馬特別",
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1435,11 +1123,323 @@
       "source_url": ""
     },
     {
-      "race_id": "202110030509",
-      "race_date": "2021-07-17",
-      "track": "小倉",
-      "race_no": 9,
-      "race_name": "雲仙特別",
+      "race_id": "20260919-札幌-08",
+      "race_date": "2026-09-19",
+      "track": "札幌",
+      "race_no": 8,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-阪神-08",
+      "race_date": "2026-09-19",
+      "track": "阪神",
+      "race_no": 8,
+      "race_name": "",
+      "surface": "芝",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": 142135600,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-中山-08",
+      "race_date": "2026-09-19",
+      "track": "中山",
+      "race_no": 8,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "ダート",
+      "distance": 1800,
+      "going": "",
+      "trifecta_payout": 117400000,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-阪神-07",
+      "race_date": "2026-09-19",
+      "track": "阪神",
+      "race_no": 7,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-中山-07",
+      "race_date": "2026-09-19",
+      "track": "中山",
+      "race_no": 7,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-阪神-06",
+      "race_date": "2026-09-19",
+      "track": "阪神",
+      "race_no": 6,
+      "race_name": "2歳新馬",
+      "surface": "芝",
+      "distance": 1800,
+      "going": "",
+      "trifecta_payout": 119636500,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-中山-06",
+      "race_date": "2026-09-19",
+      "track": "中山",
+      "race_no": 6,
+      "race_name": "2歳新馬",
+      "surface": "芝",
+      "distance": 1200,
+      "going": "",
+      "trifecta_payout": 146656000,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-阪神-05",
+      "race_date": "2026-09-19",
+      "track": "阪神",
+      "race_no": 5,
+      "race_name": "2歳新馬",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-中山-05",
+      "race_date": "2026-09-19",
+      "track": "中山",
+      "race_no": 5,
+      "race_name": "2歳新馬",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-新潟-05",
+      "race_date": "2026-09-19",
+      "track": "新潟",
+      "race_no": 5,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-阪神-04",
+      "race_date": "2026-09-19",
+      "track": "阪神",
+      "race_no": 4,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-中山-04",
+      "race_date": "2026-09-19",
+      "track": "中山",
+      "race_no": 4,
+      "race_name": "2歳新馬",
+      "surface": "芝",
+      "distance": 1200,
+      "going": "",
+      "trifecta_payout": 165780500,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-阪神-03",
+      "race_date": "2026-09-19",
+      "track": "阪神",
+      "race_no": 3,
+      "race_name": "2歳未勝利",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-中山-03",
+      "race_date": "2026-09-19",
+      "track": "中山",
+      "race_no": 3,
+      "race_name": "2歳未勝利",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-阪神-02",
+      "race_date": "2026-09-19",
+      "track": "阪神",
+      "race_no": 2,
+      "race_name": "2歳未勝利",
+      "surface": "芝",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-京都-02",
+      "race_date": "2026-09-19",
+      "track": "京都",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-中山-02",
+      "race_date": "2026-09-19",
+      "track": "中山",
+      "race_no": 2,
+      "race_name": "2歳未勝利",
+      "surface": "ダート",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-札幌-01",
+      "race_date": "2026-09-19",
+      "track": "札幌",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-阪神-01",
+      "race_date": "2026-09-19",
+      "track": "阪神",
+      "race_no": 1,
+      "race_name": "2歳未勝利",
+      "surface": "ダート",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": 160055700,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260919-中山-01",
+      "race_date": "2026-09-19",
+      "track": "中山",
+      "race_no": 1,
+      "race_name": "2歳未勝利",
+      "surface": "ダート",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": 191454500,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260918-福島-02",
+      "race_date": "2026-09-18",
+      "track": "福島",
+      "race_no": 2,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260918-京都-01",
+      "race_date": "2026-09-18",
+      "track": "京都",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260916-新潟-06",
+      "race_date": "2026-09-16",
+      "track": "新潟",
+      "race_no": 6,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260916-東京-06",
+      "race_date": "2026-09-16",
+      "track": "東京",
+      "race_no": 6,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260915-中京-04",
+      "race_date": "2026-09-15",
+      "track": "中京",
+      "race_no": 4,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260915-札幌-01",
+      "race_date": "2026-09-15",
+      "track": "札幌",
+      "race_no": 1,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "going": "",
+      "trifecta_payout": null,
+      "source_url": ""
+    },
+    {
+      "race_id": "20260915-阪神-01",
+      "race_date": "2026-09-15",
+      "track": "阪神",
+      "race_no": 1,
+      "race_name": "",
       "surface": "",
       "distance": null,
       "going": "",
@@ -1447,7 +1447,1108 @@
       "source_url": ""
     }
   ],
-  "wild_races": [],
+  "wild_races": [
+    {
+      "race_id": "20220828-新潟-04",
+      "race_date": "2022-08-28",
+      "track": "新潟",
+      "race_no": 4,
+      "race_name": "3歳未勝利",
+      "surface": "芝",
+      "distance": 2000,
+      "trifecta_payout": 12332437019900,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250816-中京-04",
+      "race_date": "2025-08-16",
+      "track": "中京",
+      "race_no": 4,
+      "race_name": "3歳未勝利",
+      "surface": "芝",
+      "distance": 1800,
+      "trifecta_payout": 8523760276800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250420-阪神-01",
+      "race_date": "2025-04-20",
+      "track": "阪神",
+      "race_no": 1,
+      "race_name": "3歳未勝利",
+      "surface": "ダート",
+      "distance": null,
+      "trifecta_payout": 2287184316700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20251228-中山-12",
+      "race_date": "2025-12-28",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "2025ファイナルステークス",
+      "surface": "芝",
+      "distance": 1600,
+      "trifecta_payout": 25420511600,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20221225-中山-12",
+      "race_date": "2022-12-25",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "キャンドルライト賞",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 19986697400,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20231224-中山-06",
+      "race_date": "2023-12-24",
+      "track": "中山",
+      "race_no": 6,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 19135453700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230528-東京-12",
+      "race_date": "2023-05-28",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "目 黒 記 念（ＧⅡ）",
+      "surface": "芝",
+      "distance": 2500,
+      "trifecta_payout": 11202359000,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20231029-東京-12",
+      "race_date": "2023-10-29",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "秋嶺ステークス",
+      "surface": "芝",
+      "distance": 1300,
+      "trifecta_payout": 11143615000,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220529-東京-12",
+      "race_date": "2022-05-29",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "目 黒 記 念（ＧⅡ）",
+      "surface": "芝",
+      "distance": 2500,
+      "trifecta_payout": 10292013800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240623-京都-12",
+      "race_date": "2024-06-23",
+      "track": "京都",
+      "race_no": 12,
+      "race_name": "リ ボ ン 賞",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 9222438700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250420-中山-12",
+      "race_date": "2025-04-20",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "サンシャインステークス",
+      "surface": "芝",
+      "distance": 2200,
+      "trifecta_payout": 8713030300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20221030-東京-12",
+      "race_date": "2022-10-30",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "秋嶺ステークス",
+      "surface": "芝",
+      "distance": 1300,
+      "trifecta_payout": 8529088400,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260419-中山-12",
+      "race_date": "2026-04-19",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "サンシャインステークス",
+      "surface": "芝",
+      "distance": 2200,
+      "trifecta_payout": 6771260100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240602-東京-12",
+      "race_date": "2024-06-02",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "小 金 井 特 別",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 6488240600,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240512-東京-12",
+      "race_date": "2024-05-12",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "BSイレブン賞",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 6381087200,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240505-東京-12",
+      "race_date": "2024-05-05",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "日 吉 特 別",
+      "surface": "芝",
+      "distance": 1300,
+      "trifecta_payout": 6372891800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230402-阪神-12",
+      "race_date": "2023-04-02",
+      "track": "阪神",
+      "race_no": 12,
+      "race_name": "陽春ステークス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 6312495200,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240414-中山-12",
+      "race_date": "2024-04-14",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "春雷ステークス（Ｌ）",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 6027759700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20221016-阪神-12",
+      "race_date": "2022-10-16",
+      "track": "阪神",
+      "race_no": 12,
+      "race_name": "平城京ステークス",
+      "surface": "芝",
+      "distance": 1800,
+      "trifecta_payout": 5973855100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20241110-京都-07",
+      "race_date": "2024-11-10",
+      "track": "京都",
+      "race_no": 7,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 5823711800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260222-京都-08",
+      "race_date": "2026-02-22",
+      "track": "京都",
+      "race_no": 8,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 5819462300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250928-中山-12",
+      "race_date": "2025-09-28",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "外房ステークス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 5683814500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20241215-東京-06",
+      "race_date": "2024-12-15",
+      "track": "東京",
+      "race_no": 6,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 5669926600,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260329-中京-12",
+      "race_date": "2026-03-29",
+      "track": "中京",
+      "race_no": 12,
+      "race_name": "鈴 鹿 特 別",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 5536892000,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220306-中山-12",
+      "race_date": "2022-03-06",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "ダート",
+      "distance": 1200,
+      "trifecta_payout": 3704127700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260921-阪神-12",
+      "race_date": "2026-09-21",
+      "track": "阪神",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "ダート",
+      "distance": 1400,
+      "trifecta_payout": 3680369700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240303-中山-07",
+      "race_date": "2024-03-03",
+      "track": "中山",
+      "race_no": 7,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 3624340400,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20231008-東京-12",
+      "race_date": "2023-10-08",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 3428761400,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220109-中京-12",
+      "race_date": "2022-01-09",
+      "track": "中京",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 3315593300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220821-札幌-12",
+      "race_date": "2022-08-21",
+      "track": "札幌",
+      "race_no": 12,
+      "race_name": "手 稲 山 特 別",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 3213338300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260308-中山-12",
+      "race_date": "2026-03-08",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 3175060900,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230226-中山-12",
+      "race_date": "2023-02-26",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1800,
+      "trifecta_payout": 3167862500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230305-中山-12",
+      "race_date": "2023-03-05",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "ダート",
+      "distance": 1200,
+      "trifecta_payout": 3136827300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260104-中山-12",
+      "race_date": "2026-01-04",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 3102953200,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20221009-東京-12",
+      "race_date": "2022-10-09",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 3036121100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230108-中京-12",
+      "race_date": "2023-01-08",
+      "track": "中京",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 3027008000,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220320-阪神-12",
+      "race_date": "2022-03-20",
+      "track": "阪神",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1800,
+      "trifecta_payout": 2976078500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230918-中山-12",
+      "race_date": "2023-09-18",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "ダート",
+      "distance": 1200,
+      "trifecta_payout": 2975811700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250309-中山-12",
+      "race_date": "2025-03-09",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "ダート",
+      "distance": 1800,
+      "trifecta_payout": 2972859900,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250105-中山-12",
+      "race_date": "2025-01-05",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2915163500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260111-中山-12",
+      "race_date": "2026-01-11",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2850674500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250302-中山-07",
+      "race_date": "2025-03-02",
+      "track": "中山",
+      "race_no": 7,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2822904400,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260920-中山-12",
+      "race_date": "2026-09-20",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2804399100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220925-中山-12",
+      "race_date": "2022-09-25",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2798042900,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250216-京都-12",
+      "race_date": "2025-02-16",
+      "track": "京都",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2770561100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260322-阪神-12",
+      "race_date": "2026-03-22",
+      "track": "阪神",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 2767020400,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230212-阪神-12",
+      "race_date": "2023-02-12",
+      "track": "阪神",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2678023000,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230319-阪神-12",
+      "race_date": "2023-03-19",
+      "track": "阪神",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1800,
+      "trifecta_payout": 2670467800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240211-東京-06",
+      "race_date": "2024-02-11",
+      "track": "東京",
+      "race_no": 6,
+      "race_name": "",
+      "surface": "",
+      "distance": 4300,
+      "trifecta_payout": 2665910300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240107-中山-05",
+      "race_date": "2024-01-07",
+      "track": "中山",
+      "race_no": 5,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2660905500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250915-中山-12",
+      "race_date": "2025-09-15",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "ダート",
+      "distance": 1200,
+      "trifecta_payout": 2611822100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240916-中山-12",
+      "race_date": "2024-09-16",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "ダート",
+      "distance": 1200,
+      "trifecta_payout": 2601805000,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230716-函館-12",
+      "race_date": "2023-07-16",
+      "track": "函館",
+      "race_no": 12,
+      "race_name": "湯の川温泉特別",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2601279900,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250112-中山-06",
+      "race_date": "2025-01-12",
+      "track": "中山",
+      "race_no": 6,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2580050300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220227-中山-12",
+      "race_date": "2022-02-27",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1800,
+      "trifecta_payout": 2570364700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220717-函館-12",
+      "race_date": "2022-07-17",
+      "track": "函館",
+      "race_no": 12,
+      "race_name": "湯の川温泉特別",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2557567000,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250113-中京-12",
+      "race_date": "2025-01-13",
+      "track": "中京",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2551924600,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220313-中京-12",
+      "race_date": "2022-03-13",
+      "track": "中京",
+      "race_no": 12,
+      "race_name": "4歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2530266100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220206-東京-12",
+      "race_date": "2022-02-06",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1300,
+      "trifecta_payout": 2527605100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260705-小倉-12",
+      "race_date": "2026-07-05",
+      "track": "小倉",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1700,
+      "trifecta_payout": 2525446400,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260301-中山-12",
+      "race_date": "2026-03-01",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2522087500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250323-阪神-12",
+      "race_date": "2025-03-23",
+      "track": "阪神",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 2476982500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240616-京都-12",
+      "race_date": "2024-06-16",
+      "track": "京都",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1800,
+      "trifecta_payout": 2467655100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260201-東京-07",
+      "race_date": "2026-02-01",
+      "track": "東京",
+      "race_no": 7,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2464316900,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260112-京都-12",
+      "race_date": "2026-01-12",
+      "track": "京都",
+      "race_no": 12,
+      "race_name": "3歳未勝利",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 2455918100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20251012-東京-12",
+      "race_date": "2025-10-12",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1300,
+      "trifecta_payout": 2437213500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260215-京都-12",
+      "race_date": "2026-02-15",
+      "track": "京都",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2426477400,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230917-阪神-12",
+      "race_date": "2023-09-17",
+      "track": "阪神",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "ダート",
+      "distance": 1400,
+      "trifecta_payout": 2413468000,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220919-中山-12",
+      "race_date": "2022-09-19",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "ダート",
+      "distance": 1200,
+      "trifecta_payout": 2411975800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260712-福島-12",
+      "race_date": "2026-07-12",
+      "track": "福島",
+      "race_no": 12,
+      "race_name": "彦 星 賞",
+      "surface": "芝",
+      "distance": 1150,
+      "trifecta_payout": 2389908800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260823-札幌-08",
+      "race_date": "2026-08-23",
+      "track": "札幌",
+      "race_no": 8,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2389754100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230924-中山-12",
+      "race_date": "2023-09-24",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2378368300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230423-京都-12",
+      "race_date": "2023-04-23",
+      "track": "京都",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2376010300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250817-札幌-08",
+      "race_date": "2025-08-17",
+      "track": "札幌",
+      "race_no": 8,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2366408200,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250921-中山-12",
+      "race_date": "2025-09-21",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1800,
+      "trifecta_payout": 2358282100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240121-中山-06",
+      "race_date": "2024-01-21",
+      "track": "中山",
+      "race_no": 6,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2344138700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260315-中山-12",
+      "race_date": "2026-03-15",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上1勝クラス",
+      "surface": "ダート",
+      "distance": 1200,
+      "trifecta_payout": 2334555300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20251005-東京-12",
+      "race_date": "2025-10-05",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1600,
+      "trifecta_payout": 2311085600,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240721-小倉-12",
+      "race_date": "2024-07-21",
+      "track": "小倉",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1700,
+      "trifecta_payout": 2291666500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230709-福島-12",
+      "race_date": "2023-07-09",
+      "track": "福島",
+      "race_no": 12,
+      "race_name": "彦 星 賞",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2274425300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250105-中京-08",
+      "race_date": "2025-01-05",
+      "track": "中京",
+      "race_no": 8,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2271148600,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260215-東京-07",
+      "race_date": "2026-02-15",
+      "track": "東京",
+      "race_no": 7,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2248517800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240818-札幌-12",
+      "race_date": "2024-08-18",
+      "track": "札幌",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1700,
+      "trifecta_payout": 2237636800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230903-新潟-12",
+      "race_date": "2023-09-03",
+      "track": "新潟",
+      "race_no": 12,
+      "race_name": "雷 光 特 別",
+      "surface": "芝",
+      "distance": 1000,
+      "trifecta_payout": 2234061600,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230105-中山-12",
+      "race_date": "2023-01-05",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 2000,
+      "trifecta_payout": 2219764300,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240922-中山-12",
+      "race_date": "2024-09-22",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2203342400,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240707-福島-12",
+      "race_date": "2024-07-07",
+      "track": "福島",
+      "race_no": 12,
+      "race_name": "彦 星 賞",
+      "surface": "芝",
+      "distance": 1150,
+      "trifecta_payout": 2189859500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220918-中京-12",
+      "race_date": "2022-09-18",
+      "track": "中京",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "ダート",
+      "distance": 1400,
+      "trifecta_payout": 2184396500,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250216-東京-07",
+      "race_date": "2025-02-16",
+      "track": "東京",
+      "race_no": 7,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2168709900,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220424-東京-12",
+      "race_date": "2022-04-24",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "ダート",
+      "distance": 1600,
+      "trifecta_payout": 2168536100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20250427-東京-12",
+      "race_date": "2025-04-27",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "4歳以上2勝クラス",
+      "surface": "ダート",
+      "distance": 1400,
+      "trifecta_payout": 2166982800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230312-中京-12",
+      "race_date": "2023-03-12",
+      "track": "中京",
+      "race_no": 12,
+      "race_name": "4歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 2166735600,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20221106-東京-12",
+      "race_date": "2022-11-06",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 2152784700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220612-東京-12",
+      "race_date": "2022-06-12",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1400,
+      "trifecta_payout": 2128915700,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20241006-東京-12",
+      "race_date": "2024-10-06",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "3歳以上2勝クラス",
+      "surface": "芝",
+      "distance": 1600,
+      "trifecta_payout": 2126622200,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260531-東京-12",
+      "race_date": "2026-05-31",
+      "track": "東京",
+      "race_no": 12,
+      "race_name": "目 黒 記 念（ＧⅡ）",
+      "surface": "芝",
+      "distance": 2500,
+      "trifecta_payout": 2104856600,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20240106-中山-07",
+      "race_date": "2024-01-06",
+      "track": "中山",
+      "race_no": 7,
+      "race_name": "",
+      "surface": "",
+      "distance": null,
+      "trifecta_payout": 2102191200,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20220904-新潟-12",
+      "race_date": "2022-09-04",
+      "track": "新潟",
+      "race_no": 12,
+      "race_name": "雷 光 特 別",
+      "surface": "芝",
+      "distance": 1000,
+      "trifecta_payout": 2095086100,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20230702-福島-12",
+      "race_date": "2023-07-02",
+      "track": "福島",
+      "race_no": 12,
+      "race_name": "3歳以上1勝クラス",
+      "surface": "芝",
+      "distance": 1200,
+      "trifecta_payout": 2086113800,
+      "popularity_top3": null
+    },
+    {
+      "race_id": "20260118-中山-12",
+      "race_date": "2026-01-18",
+      "track": "中山",
+      "race_no": 12,
+      "race_name": "3歳未勝利",
+      "surface": "芝",
+      "distance": 1600,
+      "trifecta_payout": 2080607000,
+      "popularity_top3": null
+    }
+  ],
   "jockey_rankings": [
     {
       "jockey": "モレイラ",
@@ -1632,6 +2733,19 @@
       "popularity_gain": 0.18
     },
     {
+      "jockey": "横山 武史",
+      "rides": 90,
+      "wins": 17,
+      "seconds": 6,
+      "thirds": 15,
+      "win_rate": 18.9,
+      "top2_rate": 25.6,
+      "place_rate": 42.2,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
       "jockey": "安藤勝己",
       "rides": 6628,
       "wins": 1110,
@@ -1682,6 +2796,19 @@
       "avg_popularity": 4.2,
       "longshot_place_rate": 2.7,
       "popularity_gain": -1.48
+    },
+    {
+      "jockey": "川田 将雅",
+      "rides": 52,
+      "wins": 9,
+      "seconds": 5,
+      "thirds": 7,
+      "win_rate": 17.3,
+      "top2_rate": 26.9,
+      "place_rate": 40.4,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
     },
     {
       "jockey": "ペリエ",
@@ -1983,6 +3110,19 @@
       "popularity_gain": -0.13
     },
     {
+      "jockey": "三浦 皇成",
+      "rides": 56,
+      "wins": 3,
+      "seconds": 7,
+      "thirds": 9,
+      "win_rate": 5.4,
+      "top2_rate": 17.9,
+      "place_rate": 33.9,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
       "jockey": "パートン",
       "rides": 107,
       "wins": 19,
@@ -2059,6 +3199,19 @@
       "avg_popularity": 4.7,
       "longshot_place_rate": 3.3,
       "popularity_gain": -1.79
+    },
+    {
+      "jockey": "横山 和生",
+      "rides": 79,
+      "wins": 8,
+      "seconds": 8,
+      "thirds": 10,
+      "win_rate": 10.1,
+      "top2_rate": 20.3,
+      "place_rate": 32.9,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
     },
     {
       "jockey": "大江原哲",
@@ -2347,6 +3500,19 @@
       "popularity_gain": 0.24
     },
     {
+      "jockey": "坂井 瑠星",
+      "rides": 88,
+      "wins": 11,
+      "seconds": 5,
+      "thirds": 11,
+      "win_rate": 12.5,
+      "top2_rate": 18.2,
+      "place_rate": 30.7,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
       "jockey": "岩元市三",
       "rides": 1457,
       "wins": 154,
@@ -2384,6 +3550,19 @@
       "avg_popularity": 5.9,
       "longshot_place_rate": 4.4,
       "popularity_gain": -0.32
+    },
+    {
+      "jockey": "津村 明秀",
+      "rides": 76,
+      "wins": 6,
+      "seconds": 6,
+      "thirds": 11,
+      "win_rate": 7.9,
+      "top2_rate": 15.8,
+      "place_rate": 30.3,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
     },
     {
       "jockey": "出津孝一",
@@ -2451,6 +3630,19 @@
       "popularity_gain": 0.34
     },
     {
+      "jockey": "坂井",
+      "rides": 34,
+      "wins": 3,
+      "seconds": 5,
+      "thirds": 2,
+      "win_rate": 8.8,
+      "top2_rate": 23.5,
+      "place_rate": 29.4,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
       "jockey": "小島貞博",
       "rides": 2436,
       "wins": 254,
@@ -2490,6 +3682,19 @@
       "popularity_gain": -0.35
     },
     {
+      "jockey": "松山 弘平",
+      "rides": 86,
+      "wins": 8,
+      "seconds": 10,
+      "thirds": 7,
+      "win_rate": 9.3,
+      "top2_rate": 20.9,
+      "place_rate": 29.1,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
       "jockey": "オドノヒ",
       "rides": 107,
       "wins": 10,
@@ -2501,6 +3706,32 @@
       "avg_popularity": 6.0,
       "longshot_place_rate": 1.9,
       "popularity_gain": -1.37
+    },
+    {
+      "jockey": "国分 恭介",
+      "rides": 31,
+      "wins": 5,
+      "seconds": 1,
+      "thirds": 3,
+      "win_rate": 16.1,
+      "top2_rate": 19.4,
+      "place_rate": 29.0,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
+      "jockey": "松山",
+      "rides": 31,
+      "wins": 6,
+      "seconds": 2,
+      "thirds": 1,
+      "win_rate": 19.4,
+      "top2_rate": 25.8,
+      "place_rate": 29.0,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
     },
     {
       "jockey": "内田博幸",
@@ -2685,6 +3916,19 @@
       "popularity_gain": 0.7
     },
     {
+      "jockey": "石川裕紀人",
+      "rides": 54,
+      "wins": 2,
+      "seconds": 3,
+      "thirds": 10,
+      "win_rate": 3.7,
+      "top2_rate": 9.3,
+      "place_rate": 27.8,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
       "jockey": "北村卓士",
       "rides": 932,
       "wins": 100,
@@ -2761,6 +4005,19 @@
       "avg_popularity": 6.0,
       "longshot_place_rate": 4.5,
       "popularity_gain": -0.53
+    },
+    {
+      "jockey": "菅原 明良",
+      "rides": 55,
+      "wins": 2,
+      "seconds": 5,
+      "thirds": 8,
+      "win_rate": 3.6,
+      "top2_rate": 12.7,
+      "place_rate": 27.3,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
     },
     {
       "jockey": "国信満",
@@ -2958,6 +4215,19 @@
       "popularity_gain": -0.33
     },
     {
+      "jockey": "岩田 望来",
+      "rides": 68,
+      "wins": 5,
+      "seconds": 4,
+      "thirds": 9,
+      "win_rate": 7.4,
+      "top2_rate": 13.2,
+      "place_rate": 26.5,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
       "jockey": "リデル",
       "rides": 34,
       "wins": 2,
@@ -2995,6 +4265,19 @@
       "avg_popularity": 6.2,
       "longshot_place_rate": 4.0,
       "popularity_gain": -0.4
+    },
+    {
+      "jockey": "酒井 学",
+      "rides": 38,
+      "wins": 3,
+      "seconds": 1,
+      "thirds": 6,
+      "win_rate": 7.9,
+      "top2_rate": 10.5,
+      "place_rate": 26.3,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
     },
     {
       "jockey": "岩田望来",
@@ -3060,6 +4343,19 @@
       "avg_popularity": 6.7,
       "longshot_place_rate": 5.0,
       "popularity_gain": 0.1
+    },
+    {
+      "jockey": "田辺 裕信",
+      "rides": 31,
+      "wins": 1,
+      "seconds": 4,
+      "thirds": 3,
+      "win_rate": 3.2,
+      "top2_rate": 16.1,
+      "place_rate": 25.8,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
     },
     {
       "jockey": "北村宏司",
@@ -3140,6 +4436,19 @@
       "popularity_gain": -0.11
     },
     {
+      "jockey": "戸崎 圭太",
+      "rides": 90,
+      "wins": 6,
+      "seconds": 5,
+      "thirds": 12,
+      "win_rate": 6.7,
+      "top2_rate": 12.2,
+      "place_rate": 25.6,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
       "jockey": "安田富男",
       "rides": 4399,
       "wins": 365,
@@ -3177,6 +4486,19 @@
       "avg_popularity": 6.9,
       "longshot_place_rate": 2.9,
       "popularity_gain": 0.05
+    },
+    {
+      "jockey": "武 豊",
+      "rides": 51,
+      "wins": 4,
+      "seconds": 7,
+      "thirds": 2,
+      "win_rate": 7.8,
+      "top2_rate": 21.6,
+      "place_rate": 25.5,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
     },
     {
       "jockey": "北村友一",
@@ -3307,6 +4629,19 @@
       "avg_popularity": 7.2,
       "longshot_place_rate": 6.3,
       "popularity_gain": 0.24
+    },
+    {
+      "jockey": "北村 宏司",
+      "rides": 40,
+      "wins": 2,
+      "seconds": 3,
+      "thirds": 5,
+      "win_rate": 5.0,
+      "top2_rate": 12.5,
+      "place_rate": 25.0,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
     },
     {
       "jockey": "角田晃一",
@@ -3764,6 +5099,32 @@
       "popularity_gain": 0.85
     },
     {
+      "jockey": "松若 風馬",
+      "rides": 43,
+      "wins": 3,
+      "seconds": 1,
+      "thirds": 6,
+      "win_rate": 7.0,
+      "top2_rate": 9.3,
+      "place_rate": 23.3,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
+      "jockey": "武藤 雅",
+      "rides": 30,
+      "wins": 2,
+      "seconds": 2,
+      "thirds": 3,
+      "win_rate": 6.7,
+      "top2_rate": 13.3,
+      "place_rate": 23.3,
+      "avg_popularity": null,
+      "longshot_place_rate": 0.0,
+      "popularity_gain": null
+    },
+    {
       "jockey": "幸英明",
       "rides": 21530,
       "wins": 1516,
@@ -3788,349 +5149,3538 @@
       "avg_popularity": 7.2,
       "longshot_place_rate": 4.6,
       "popularity_gain": -0.18
-    },
-    {
-      "jockey": "清水英次",
-      "rides": 1883,
-      "wins": 140,
-      "seconds": 153,
-      "thirds": 144,
-      "win_rate": 7.4,
-      "top2_rate": 15.6,
-      "place_rate": 23.2,
-      "avg_popularity": 6.8,
-      "longshot_place_rate": 4.1,
-      "popularity_gain": -0.16
-    },
-    {
-      "jockey": "中竹和也",
-      "rides": 1931,
-      "wins": 140,
-      "seconds": 153,
-      "thirds": 153,
-      "win_rate": 7.3,
-      "top2_rate": 15.2,
-      "place_rate": 23.1,
-      "avg_popularity": 7.3,
-      "longshot_place_rate": 4.2,
-      "popularity_gain": 0.29
-    },
-    {
-      "jockey": "鈴木勇",
-      "rides": 581,
-      "wins": 37,
-      "seconds": 47,
-      "thirds": 50,
-      "win_rate": 6.4,
-      "top2_rate": 14.5,
-      "place_rate": 23.1,
-      "avg_popularity": 7.3,
-      "longshot_place_rate": 4.3,
-      "popularity_gain": 0.77
-    },
-    {
-      "jockey": "団野大成",
-      "rides": 1785,
-      "wins": 123,
-      "seconds": 143,
-      "thirds": 145,
-      "win_rate": 6.9,
-      "top2_rate": 14.9,
-      "place_rate": 23.0,
-      "avg_popularity": 7.2,
-      "longshot_place_rate": 4.7,
-      "popularity_gain": 0.04
-    },
-    {
-      "jockey": "内山正博",
-      "rides": 3162,
-      "wins": 211,
-      "seconds": 260,
-      "thirds": 251,
-      "win_rate": 6.7,
-      "top2_rate": 14.9,
-      "place_rate": 22.8,
-      "avg_popularity": 7.5,
-      "longshot_place_rate": 5.7,
-      "popularity_gain": 0.24
-    },
-    {
-      "jockey": "黛幸弘",
-      "rides": 549,
-      "wins": 28,
-      "seconds": 50,
-      "thirds": 47,
-      "win_rate": 5.1,
-      "top2_rate": 14.2,
-      "place_rate": 22.8,
-      "avg_popularity": 7.6,
-      "longshot_place_rate": 3.8,
-      "popularity_gain": 0.43
-    },
-    {
-      "jockey": "田所清広",
-      "rides": 246,
-      "wins": 14,
-      "seconds": 21,
-      "thirds": 21,
-      "win_rate": 5.7,
-      "top2_rate": 14.2,
-      "place_rate": 22.8,
-      "avg_popularity": 7.8,
-      "longshot_place_rate": 3.7,
-      "popularity_gain": 0.33
-    },
-    {
-      "jockey": "クロップ",
-      "rides": 189,
-      "wins": 16,
-      "seconds": 14,
-      "thirds": 13,
-      "win_rate": 8.5,
-      "top2_rate": 15.9,
-      "place_rate": 22.8,
-      "avg_popularity": 6.7,
-      "longshot_place_rate": 4.8,
-      "popularity_gain": -0.53
-    },
-    {
-      "jockey": "吉田豊",
-      "rides": 16803,
-      "wins": 1258,
-      "seconds": 1290,
-      "thirds": 1263,
-      "win_rate": 7.5,
-      "top2_rate": 15.2,
-      "place_rate": 22.7,
-      "avg_popularity": 7.3,
-      "longshot_place_rate": 4.6,
-      "popularity_gain": 0.06
-    },
-    {
-      "jockey": "増井裕",
-      "rides": 2862,
-      "wins": 207,
-      "seconds": 233,
-      "thirds": 210,
-      "win_rate": 7.2,
-      "top2_rate": 15.4,
-      "place_rate": 22.7,
-      "avg_popularity": 7.1,
-      "longshot_place_rate": 4.2,
-      "popularity_gain": 0.15
-    },
-    {
-      "jockey": "蓑田早人",
-      "rides": 2055,
-      "wins": 146,
-      "seconds": 156,
-      "thirds": 165,
-      "win_rate": 7.1,
-      "top2_rate": 14.7,
-      "place_rate": 22.7,
-      "avg_popularity": 7.2,
-      "longshot_place_rate": 5.7,
-      "popularity_gain": 0.11
-    },
-    {
-      "jockey": "田中剛",
-      "rides": 4204,
-      "wins": 293,
-      "seconds": 328,
-      "thirds": 330,
-      "win_rate": 7.0,
-      "top2_rate": 14.8,
-      "place_rate": 22.6,
-      "avg_popularity": 7.7,
-      "longshot_place_rate": 4.8,
-      "popularity_gain": 0.25
-    },
-    {
-      "jockey": "内田国夫",
-      "rides": 1434,
-      "wins": 88,
-      "seconds": 131,
-      "thirds": 105,
-      "win_rate": 6.1,
-      "top2_rate": 15.3,
-      "place_rate": 22.6,
-      "avg_popularity": 7.2,
-      "longshot_place_rate": 5.6,
-      "popularity_gain": 0.2
-    },
-    {
-      "jockey": "渡部秀一",
-      "rides": 371,
-      "wins": 18,
-      "seconds": 26,
-      "thirds": 40,
-      "win_rate": 4.9,
-      "top2_rate": 11.9,
-      "place_rate": 22.6,
-      "avg_popularity": 6.1,
-      "longshot_place_rate": 3.8,
-      "popularity_gain": 0.25
-    },
-    {
-      "jockey": "スティー",
-      "rides": 31,
-      "wins": 3,
-      "seconds": 3,
-      "thirds": 1,
-      "win_rate": 9.7,
-      "top2_rate": 19.4,
-      "place_rate": 22.6,
-      "avg_popularity": 7.9,
-      "longshot_place_rate": 12.9,
-      "popularity_gain": 0.71
-    },
-    {
-      "jockey": "橋本広喜",
-      "rides": 4701,
-      "wins": 371,
-      "seconds": 341,
-      "thirds": 347,
-      "win_rate": 7.9,
-      "top2_rate": 15.1,
-      "place_rate": 22.5,
-      "avg_popularity": 7.1,
-      "longshot_place_rate": 4.9,
-      "popularity_gain": -0.26
-    },
-    {
-      "jockey": "西村淳也",
-      "rides": 2162,
-      "wins": 156,
-      "seconds": 166,
-      "thirds": 164,
-      "win_rate": 7.2,
-      "top2_rate": 14.9,
-      "place_rate": 22.5,
-      "avg_popularity": 7.5,
-      "longshot_place_rate": 5.8,
-      "popularity_gain": -0.23
-    },
-    {
-      "jockey": "吉永良人",
-      "rides": 391,
-      "wins": 19,
-      "seconds": 37,
-      "thirds": 32,
-      "win_rate": 4.9,
-      "top2_rate": 14.3,
-      "place_rate": 22.5,
-      "avg_popularity": 7.7,
-      "longshot_place_rate": 5.9,
-      "popularity_gain": 0.62
-    },
-    {
-      "jockey": "武幸四郎",
-      "rides": 9169,
-      "wins": 693,
-      "seconds": 699,
-      "thirds": 661,
-      "win_rate": 7.6,
-      "top2_rate": 15.2,
-      "place_rate": 22.4,
-      "avg_popularity": 7.0,
-      "longshot_place_rate": 4.0,
-      "popularity_gain": -0.56
-    },
-    {
-      "jockey": "須貝尚介",
-      "rides": 4024,
-      "wins": 288,
-      "seconds": 297,
-      "thirds": 316,
-      "win_rate": 7.2,
-      "top2_rate": 14.5,
-      "place_rate": 22.4,
-      "avg_popularity": 7.6,
-      "longshot_place_rate": 6.2,
-      "popularity_gain": 0.55
     }
   ],
   "courses": [
     {
-      "track": "京都",
-      "surface": "",
-      "distance": null,
-      "races": 17799,
-      "avg_trifecta": null,
-      "longshot_place_pct": 48.2
-    },
-    {
       "track": "東京",
       "surface": "",
       "distance": null,
-      "races": 17719,
-      "avg_trifecta": null,
-      "longshot_place_pct": 48.6
+      "races": 19115,
+      "avg_trifecta": 591446513.0,
+      "longshot_place_pct": 45.1
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": null,
+      "races": 18841,
+      "avg_trifecta": 961749489.0,
+      "longshot_place_pct": 45.5
     },
     {
       "track": "中山",
       "surface": "",
       "distance": null,
-      "races": 16960,
-      "avg_trifecta": null,
-      "longshot_place_pct": 49.3
+      "races": 18241,
+      "avg_trifecta": 1255060485.0,
+      "longshot_place_pct": 45.8
     },
     {
       "track": "阪神",
       "surface": "",
       "distance": null,
-      "races": 16545,
-      "avg_trifecta": null,
-      "longshot_place_pct": 48.1
-    },
-    {
-      "track": "新潟",
-      "surface": "",
-      "distance": null,
-      "races": 10595,
-      "avg_trifecta": null,
-      "longshot_place_pct": 50.3
+      "races": 17840,
+      "avg_trifecta": 306031742.0,
+      "longshot_place_pct": 44.6
     },
     {
       "track": "中京",
       "surface": "",
       "distance": null,
-      "races": 10520,
-      "avg_trifecta": null,
-      "longshot_place_pct": 53.5
+      "races": 11556,
+      "avg_trifecta": 523506233.0,
+      "longshot_place_pct": 48.7
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": null,
+      "races": 11418,
+      "avg_trifecta": 170856947.0,
+      "longshot_place_pct": 46.7
     },
     {
       "track": "小倉",
       "surface": "",
       "distance": null,
-      "races": 10108,
-      "avg_trifecta": null,
-      "longshot_place_pct": 50.3
+      "races": 10763,
+      "avg_trifecta": 109316450.0,
+      "longshot_place_pct": 47.2
     },
     {
       "track": "福島",
       "surface": "",
       "distance": null,
-      "races": 9380,
-      "avg_trifecta": null,
-      "longshot_place_pct": 52.5
+      "races": 9958,
+      "avg_trifecta": 170265817.0,
+      "longshot_place_pct": 49.5
     },
     {
       "track": "札幌",
       "surface": "",
       "distance": null,
-      "races": 6213,
-      "avg_trifecta": null,
-      "longshot_place_pct": 44.0
+      "races": 6665,
+      "avg_trifecta": 665857100.0,
+      "longshot_place_pct": 41.0
     },
     {
       "track": "函館",
       "surface": "",
       "distance": null,
-      "races": 6099,
+      "races": 6444,
+      "avg_trifecta": 252401800.0,
+      "longshot_place_pct": 39.2
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": null,
+      "races": 292,
+      "avg_trifecta": 128123159.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "ダート",
+      "distance": null,
+      "races": 275,
+      "avg_trifecta": 124473251.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": null,
+      "races": 267,
+      "avg_trifecta": 15071169405.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": null,
+      "races": 250,
+      "avg_trifecta": 121643298.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": null,
+      "races": 220,
+      "avg_trifecta": 102097218.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 199,
+      "avg_trifecta": 241393005.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 1600,
+      "races": 196,
+      "avg_trifecta": 303479455.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 178,
+      "avg_trifecta": 696658449.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 166,
+      "avg_trifecta": 259859861.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 1400,
+      "races": 155,
+      "avg_trifecta": 482576532.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 154,
+      "avg_trifecta": 152896211.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "芝",
+      "distance": null,
+      "races": 148,
+      "avg_trifecta": 100608636.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "ダート",
+      "distance": 1600,
+      "races": 133,
+      "avg_trifecta": 281927680.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "芝",
+      "distance": 1700,
+      "races": 129,
+      "avg_trifecta": 197193555.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 123,
+      "avg_trifecta": 228075592.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 118,
+      "avg_trifecta": 213267190.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": null,
+      "races": 114,
+      "avg_trifecta": 100302734.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 113,
+      "avg_trifecta": 205951858.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 110,
+      "avg_trifecta": 486378812.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "ダート",
+      "distance": 1400,
+      "races": 103,
+      "avg_trifecta": 368425715.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 103,
+      "avg_trifecta": 429783489.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 1400,
+      "races": 103,
+      "avg_trifecta": 326215694.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 1400,
+      "races": 101,
+      "avg_trifecta": 244250433.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance": 1400,
+      "races": 100,
+      "avg_trifecta": 320781660.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 94,
+      "avg_trifecta": 90815357365.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance": 1700,
+      "races": 94,
+      "avg_trifecta": 213300359.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": null,
+      "races": 94,
+      "avg_trifecta": 75386841.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance": 1700,
+      "races": 91,
+      "avg_trifecta": 135349307.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 90,
+      "avg_trifecta": 182720758.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 1400,
+      "races": 88,
+      "avg_trifecta": 205946025.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "芝",
+      "distance": 1700,
+      "races": 87,
+      "avg_trifecta": 147286110.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": null,
+      "races": 87,
+      "avg_trifecta": 89207413.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 1400,
+      "races": 83,
+      "avg_trifecta": 363506330.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 81,
+      "avg_trifecta": 237757478.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 76,
+      "avg_trifecta": 464151538.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 76,
+      "avg_trifecta": 236513134.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance": 1150,
+      "races": 75,
+      "avg_trifecta": 283869873.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "ダート",
+      "distance": null,
+      "races": 74,
+      "avg_trifecta": 84147212.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 72,
+      "avg_trifecta": 603423339.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 1400,
+      "races": 70,
+      "avg_trifecta": 259588013.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance": null,
+      "races": 67,
+      "avg_trifecta": 116219378.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance": null,
+      "races": 65,
+      "avg_trifecta": 112671656.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 60,
+      "avg_trifecta": 413491472.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 59,
+      "avg_trifecta": 138756219.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 58,
+      "avg_trifecta": 162777311.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "ダート",
+      "distance": 2860,
+      "races": 58,
+      "avg_trifecta": 76494228.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "芝",
+      "distance": null,
+      "races": 56,
+      "avg_trifecta": 103426779.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance": null,
+      "races": 54,
+      "avg_trifecta": 108805551.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance": 1600,
+      "races": 50,
+      "avg_trifecta": 206168021.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 50,
+      "avg_trifecta": 141909379.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "ダート",
+      "distance": null,
+      "races": 49,
+      "avg_trifecta": 96985689.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 48,
+      "avg_trifecta": 279310811.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 48,
+      "avg_trifecta": 144360070.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 47,
+      "avg_trifecta": 168184503.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 1600,
+      "races": 47,
+      "avg_trifecta": 1284565048.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 47,
+      "avg_trifecta": 231314225.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "ダート",
+      "distance": null,
+      "races": 47,
+      "avg_trifecta": 110486139.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 46,
+      "avg_trifecta": 257119702.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 46,
+      "avg_trifecta": 193572545.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 45,
+      "avg_trifecta": 140664793.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": null,
+      "races": 44,
+      "avg_trifecta": 137946889.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 43,
+      "avg_trifecta": 245138478.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": null,
+      "races": 43,
+      "avg_trifecta": 188543031.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 1600,
+      "races": 42,
+      "avg_trifecta": 151753833.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 41,
+      "avg_trifecta": 278839307.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 40,
+      "avg_trifecta": 211809542.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 38,
+      "avg_trifecta": 198767519.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 1600,
+      "races": 38,
+      "avg_trifecta": 262272766.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 38,
+      "avg_trifecta": 149402208.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "芝",
+      "distance": 1000,
+      "races": 36,
+      "avg_trifecta": 135569911.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 36,
+      "avg_trifecta": 215189612.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 1600,
+      "races": 35,
+      "avg_trifecta": 216220771.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 1600,
+      "races": 35,
+      "avg_trifecta": 303077363.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "芝",
+      "distance": 1000,
+      "races": 35,
+      "avg_trifecta": 148164806.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "ダート",
+      "distance": 1700,
+      "races": 34,
+      "avg_trifecta": 126333247.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 2100,
+      "races": 34,
+      "avg_trifecta": 191429171.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 34,
+      "avg_trifecta": 245091509.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": null,
+      "races": 34,
+      "avg_trifecta": 196969122.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance": 1900,
+      "races": 33,
+      "avg_trifecta": 146539439.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 33,
+      "avg_trifecta": 152046527.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 33,
+      "avg_trifecta": 177978867.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 1400,
+      "races": 33,
+      "avg_trifecta": 349982133.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 2890,
+      "races": 32,
+      "avg_trifecta": 73875708.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 1600,
+      "races": 32,
+      "avg_trifecta": 180020208.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 31,
+      "avg_trifecta": 104688968.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 30,
+      "avg_trifecta": 413483440.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 1300,
+      "races": 30,
+      "avg_trifecta": 1455451565.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 1600,
+      "races": 30,
+      "avg_trifecta": 180230750.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 2880,
+      "races": 29,
+      "avg_trifecta": 131015093.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": null,
+      "races": 29,
+      "avg_trifecta": 163039014.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 29,
+      "avg_trifecta": 123927046.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 28,
+      "avg_trifecta": 474464811238.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 27,
+      "avg_trifecta": 148729670.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "障害",
+      "distance": null,
+      "races": 27,
       "avg_trifecta": null,
-      "longshot_place_pct": 41.4
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 1600,
+      "races": 27,
+      "avg_trifecta": 133462918.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 26,
+      "avg_trifecta": 206878858.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 25,
+      "avg_trifecta": 186919352.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 25,
+      "avg_trifecta": 118067632.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 24,
+      "avg_trifecta": 138474788.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 24,
+      "avg_trifecta": 149143214.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 1600,
+      "races": 23,
+      "avg_trifecta": 297414887.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 1900,
+      "races": 22,
+      "avg_trifecta": 173666781.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "ダート",
+      "distance": 1500,
+      "races": 22,
+      "avg_trifecta": 129106655.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 22,
+      "avg_trifecta": 377062453.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 1000,
+      "races": 21,
+      "avg_trifecta": 469830200.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "ダート",
+      "distance": 2100,
+      "races": 21,
+      "avg_trifecta": 389711983.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "ダート",
+      "distance": 2400,
+      "races": 21,
+      "avg_trifecta": 196559352.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 3000,
+      "races": 21,
+      "avg_trifecta": 134315495.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "ダート",
+      "distance": 1700,
+      "races": 20,
+      "avg_trifecta": 102798760.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 20,
+      "avg_trifecta": 315930467.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "障害",
+      "distance": null,
+      "races": 20,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1000,
+      "races": 19,
+      "avg_trifecta": 324430075.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 19,
+      "avg_trifecta": 102473239.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 19,
+      "avg_trifecta": 125579688.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance": 2600,
+      "races": 19,
+      "avg_trifecta": 121644747.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "芝",
+      "distance": 2600,
+      "races": 18,
+      "avg_trifecta": 266350163.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance": 1500,
+      "races": 18,
+      "avg_trifecta": 209012781.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance": 2200,
+      "races": 17,
+      "avg_trifecta": 208229425.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 2400,
+      "races": 17,
+      "avg_trifecta": 222723733.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 2750,
+      "races": 17,
+      "avg_trifecta": 75009138.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 16,
+      "avg_trifecta": 212419913.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 1000,
+      "races": 16,
+      "avg_trifecta": 313612969.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 2850,
+      "races": 16,
+      "avg_trifecta": 80237792.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance": 1000,
+      "races": 16,
+      "avg_trifecta": 148233693.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 16,
+      "avg_trifecta": 227320192.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 1700,
+      "races": 16,
+      "avg_trifecta": 207318410.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 1900,
+      "races": 15,
+      "avg_trifecta": 143350738.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 15,
+      "avg_trifecta": 125207614.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 15,
+      "avg_trifecta": 129813980.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 2400,
+      "races": 15,
+      "avg_trifecta": 140346947.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 2400,
+      "races": 14,
+      "avg_trifecta": 140979279.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 14,
+      "avg_trifecta": 123638854.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 2970,
+      "races": 14,
+      "avg_trifecta": 105243283.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 2970,
+      "races": 14,
+      "avg_trifecta": 119390071.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 2200,
+      "races": 13,
+      "avg_trifecta": 231689618.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1600,
+      "races": 13,
+      "avg_trifecta": 156400300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "ダート",
+      "distance": 1300,
+      "races": 13,
+      "avg_trifecta": 343930580.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 1800,
+      "races": 13,
+      "avg_trifecta": 132745192.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 2770,
+      "races": 13,
+      "avg_trifecta": 72778536.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 2400,
+      "races": 12,
+      "avg_trifecta": 308265958.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "ダート",
+      "distance": 1700,
+      "races": 12,
+      "avg_trifecta": 148055667.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "ダート",
+      "distance": 3390,
+      "races": 12,
+      "avg_trifecta": 110371017.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 1900,
+      "races": 11,
+      "avg_trifecta": 152258173.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 2910,
+      "races": 11,
+      "avg_trifecta": 128764727.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "芝",
+      "distance": 2600,
+      "races": 11,
+      "avg_trifecta": 133776673.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 2200,
+      "races": 11,
+      "avg_trifecta": 305102920.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "障害",
+      "distance": null,
+      "races": 11,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 11,
+      "avg_trifecta": 443497771.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 1150,
+      "races": 11,
+      "avg_trifecta": 246385836.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 2400,
+      "races": 10,
+      "avg_trifecta": 484175220.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 2500,
+      "races": 10,
+      "avg_trifecta": 169388460.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "ダート",
+      "distance": 2600,
+      "races": 10,
+      "avg_trifecta": 128747290.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1200,
+      "races": 10,
+      "avg_trifecta": 232782800.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "障害",
+      "distance": null,
+      "races": 9,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 2500,
+      "races": 9,
+      "avg_trifecta": 386943211.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "芝",
+      "distance": 2400,
+      "races": 9,
+      "avg_trifecta": 89341044.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 1400,
+      "races": 9,
+      "avg_trifecta": 161937622.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 2200,
+      "races": 9,
+      "avg_trifecta": 159027867.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance": 2600,
+      "races": 9,
+      "avg_trifecta": 198914143.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1400,
+      "races": 9,
+      "avg_trifecta": 1099315367.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "ダート",
+      "distance": 3110,
+      "races": 9,
+      "avg_trifecta": 198017800.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 2200,
+      "races": 8,
+      "avg_trifecta": 2964691783.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 2200,
+      "races": 8,
+      "avg_trifecta": 128995786.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 3170,
+      "races": 8,
+      "avg_trifecta": 110954188.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 8,
+      "avg_trifecta": 87724875.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 2600,
+      "races": 8,
+      "avg_trifecta": 159491600.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 2200,
+      "races": 8,
+      "avg_trifecta": 187482843.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 3140,
+      "races": 8,
+      "avg_trifecta": 160410063.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 2400,
+      "races": 8,
+      "avg_trifecta": 221143263.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "ダート",
+      "distance": 2600,
+      "races": 7,
+      "avg_trifecta": 114548543.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "芝",
+      "distance": 2400,
+      "races": 7,
+      "avg_trifecta": 79700457.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "",
+      "distance": 2000,
+      "races": 7,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 3250,
+      "races": 7,
+      "avg_trifecta": 106756486.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 3110,
+      "races": 7,
+      "avg_trifecta": 92534614.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1400,
+      "races": 6,
+      "avg_trifecta": 180174300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 2200,
+      "races": 6,
+      "avg_trifecta": 201869650.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 3200,
+      "races": 6,
+      "avg_trifecta": 141684440.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1200,
+      "races": 6,
+      "avg_trifecta": 236943000.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 2400,
+      "races": 6,
+      "avg_trifecta": 181855017.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 3170,
+      "races": 6,
+      "avg_trifecta": 161439667.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "ダート",
+      "distance": 1000,
+      "races": 6,
+      "avg_trifecta": 177304133.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "ダート",
+      "distance": 2600,
+      "races": 6,
+      "avg_trifecta": 97691617.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 2000,
+      "races": 6,
+      "avg_trifecta": 205030067.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 1500,
+      "races": 6,
+      "avg_trifecta": 158883960.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "ダート",
+      "distance": 1000,
+      "races": 6,
+      "avg_trifecta": 82409400.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1600,
+      "races": 6,
+      "avg_trifecta": 182970017.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "障害",
+      "distance": null,
+      "races": 6,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 3300,
+      "races": 5,
+      "avg_trifecta": 124007660.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 3350,
+      "races": 5,
+      "avg_trifecta": 126496240.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 2880,
+      "races": 5,
+      "avg_trifecta": 114522780.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1800,
+      "races": 5,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1000,
+      "races": 5,
+      "avg_trifecta": 395001400.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 2500,
+      "races": 5,
+      "avg_trifecta": 5432714800.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 1200,
+      "races": 5,
+      "avg_trifecta": 145238450.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 1800,
+      "races": 5,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 3900,
+      "races": 5,
+      "avg_trifecta": 295107460.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 1200,
+      "races": 4,
+      "avg_trifecta": 107462700.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 3210,
+      "races": 4,
+      "avg_trifecta": 118609825.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 3570,
+      "races": 4,
+      "avg_trifecta": 112300750.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 2000,
+      "races": 4,
+      "avg_trifecta": 182983000.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 2200,
+      "races": 4,
+      "avg_trifecta": 238475875.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 3930,
+      "races": 4,
+      "avg_trifecta": 195974100.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "障害",
+      "distance": null,
+      "races": 4,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "ダート",
+      "distance": 1000,
+      "races": 4,
+      "avg_trifecta": 103144700.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 2400,
+      "races": 4,
+      "avg_trifecta": 116472300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 2500,
+      "races": 4,
+      "avg_trifecta": 81968775.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 1000,
+      "races": 4,
+      "avg_trifecta": 112233650.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "芝",
+      "distance": 2400,
+      "races": 4,
+      "avg_trifecta": 109506825.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2000,
+      "races": 4,
+      "avg_trifecta": 340946600.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2200,
+      "races": 4,
+      "avg_trifecta": 122162300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 3000,
+      "races": 4,
+      "avg_trifecta": 190526900.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4300,
+      "races": 4,
+      "avg_trifecta": 1339208733.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "障害",
+      "distance": null,
+      "races": 4,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 1700,
+      "races": 4,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "芝",
+      "distance": 2400,
+      "races": 4,
+      "avg_trifecta": 65175125.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 1000,
+      "races": 4,
+      "avg_trifecta": 191143200.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 2200,
+      "races": 4,
+      "avg_trifecta": 156120575.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 3110,
+      "races": 4,
+      "avg_trifecta": 85919300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 3000,
+      "races": 3,
+      "avg_trifecta": 359316800.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1600,
+      "races": 3,
+      "avg_trifecta": 118726200.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 1000,
+      "races": 3,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 1600,
+      "races": 3,
+      "avg_trifecta": 184949100.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 2000,
+      "races": 3,
+      "avg_trifecta": 146109650.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "ダート",
+      "distance": 2400,
+      "races": 3,
+      "avg_trifecta": 95387400.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1100,
+      "races": 3,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2300,
+      "races": 3,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4000,
+      "races": 3,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 1000,
+      "races": 3,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 1500,
+      "races": 3,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 1400,
+      "races": 3,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 2000,
+      "races": 3,
+      "avg_trifecta": 808621300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 3000,
+      "races": 3,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 4000,
+      "races": 3,
+      "avg_trifecta": 371359800.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 2600,
+      "races": 3,
+      "avg_trifecta": 199649767.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 1000,
+      "races": 2,
+      "avg_trifecta": 352815250.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 1400,
+      "races": 2,
+      "avg_trifecta": 195693700.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 2000,
+      "races": 2,
+      "avg_trifecta": 419705100.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 3330,
+      "races": 2,
+      "avg_trifecta": 136977350.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1200,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1800,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 2200,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 4000,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 3200,
+      "races": 2,
+      "avg_trifecta": 176905700.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 4100,
+      "races": 2,
+      "avg_trifecta": 437524500.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1900,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "",
+      "distance": 1500,
+      "races": 2,
+      "avg_trifecta": 258439000.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "ダート",
+      "distance": 2400,
+      "races": 2,
+      "avg_trifecta": 102635050.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "",
+      "distance": 1200,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "",
+      "distance": 1800,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 2400,
+      "races": 2,
+      "avg_trifecta": 140909950.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "ダート",
+      "distance": 3290,
+      "races": 2,
+      "avg_trifecta": 78649950.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 2000,
+      "races": 2,
+      "avg_trifecta": 92271200.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 3000,
+      "races": 2,
+      "avg_trifecta": 240255400.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "障害",
+      "distance": null,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1900,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2400,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 3200,
+      "races": 2,
+      "avg_trifecta": 349363000.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 2000,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 2400,
+      "races": 2,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 3380,
+      "races": 2,
+      "avg_trifecta": 101893750.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 1034,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 1309,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 1600,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 1700,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 2026,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 2307,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 2390,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 2540,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 4400,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 4882,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": 4900,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中京",
+      "surface": "ダート",
+      "distance": 3900,
+      "races": 1,
+      "avg_trifecta": 184879300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1130,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1255,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1460,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1500,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1520,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1540,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1590,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1640,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1710,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 1930,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 2000,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 2370,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 2590,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 2600,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 2602,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 2650,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 2800,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 2830,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 3250,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 3400,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 3600,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 3740,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 4150,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 4200,
+      "races": 1,
+      "avg_trifecta": 109367300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 4480,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 4650,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 4870,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": 4960,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1110,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1400,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1480,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1520,
+      "races": 1,
+      "avg_trifecta": 308872100.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1530,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 1700,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 2001,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 2026,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 2100,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 2200,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 2650,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 2670,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 2800,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 2880,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 3000,
+      "races": 1,
+      "avg_trifecta": 172040100.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 3310,
+      "races": 1,
+      "avg_trifecta": 149043400.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 3810,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 4000,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": 4097,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "ダート",
+      "distance": 2910,
+      "races": 1,
+      "avg_trifecta": 146124100.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 3000,
+      "races": 1,
+      "avg_trifecta": 171390400.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "",
+      "distance": 1000,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "",
+      "distance": 1400,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "",
+      "distance": 2540,
+      "races": 1,
+      "avg_trifecta": 83243100.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "",
+      "distance": 4000,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "函館",
+      "surface": "障害",
+      "distance": null,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "",
+      "distance": 1000,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "",
+      "distance": 1700,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "",
+      "distance": 1848,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "小倉",
+      "surface": "",
+      "distance": 2026,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 1200,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 1370,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 1400,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 2270,
+      "races": 1,
+      "avg_trifecta": 71226900.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 2500,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 2530,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 2600,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 2700,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 3531,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 4620,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "新潟",
+      "surface": "",
+      "distance": 4850,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 1090,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 1300,
+      "races": 1,
+      "avg_trifecta": 227512900.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 1600,
+      "races": 1,
+      "avg_trifecta": 177990100.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 1700,
+      "races": 1,
+      "avg_trifecta": 86057200.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 1800,
+      "races": 1,
+      "avg_trifecta": 178630700.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 2024,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 2600,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 3200,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 3454,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 3967,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": 4500,
+      "races": 1,
+      "avg_trifecta": 165564000.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1040,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1150,
+      "races": 1,
+      "avg_trifecta": 142992500.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1180,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1380,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1540,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1660,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1700,
+      "races": 1,
+      "avg_trifecta": 1023390000.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1770,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1800,
+      "races": 1,
+      "avg_trifecta": 465021200.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1924,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1970,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2027,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2250,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2410,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2469,
+      "races": 1,
+      "avg_trifecta": 575727300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2600,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2841,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2880,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 2983,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 3400,
+      "races": 1,
+      "avg_trifecta": 484948800.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 3500,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 3700,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4030,
+      "races": 1,
+      "avg_trifecta": 573760400.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4220,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4388,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4560,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4660,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4700,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4800,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4860,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4971,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 3100,
+      "races": 1,
+      "avg_trifecta": 120210200.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 1200,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 1240,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 1300,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 1350,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 1800,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 2190,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 2510,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 3600,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 3960,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 4000,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "",
+      "distance": 4100,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "福島",
+      "surface": "ダート",
+      "distance": 2400,
+      "races": 1,
+      "avg_trifecta": 71340600.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 1290,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 1600,
+      "races": 1,
+      "avg_trifecta": 251950100.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 1792,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 2400,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 2700,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 2800,
+      "races": 1,
+      "avg_trifecta": 223473800.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 2820,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 3100,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 3170,
+      "races": 1,
+      "avg_trifecta": 562376000.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 3422,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 3710,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 4300,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "",
+      "distance": 4700,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": 2600,
+      "races": 1,
+      "avg_trifecta": 117373300.0,
+      "longshot_place_pct": null
+    },
+    {
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 3000,
+      "races": 1,
+      "avg_trifecta": null,
+      "longshot_place_pct": null
     }
   ],
-  "wild_conditions": []
+  "wild_conditions": [
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 2000,
+      "races": 26,
+      "avg_payout": 474464811238.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "中京",
+      "surface": "芝",
+      "distance": 1800,
+      "races": 94,
+      "avg_payout": 90815357365.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "阪神",
+      "surface": "ダート",
+      "distance": null,
+      "races": 153,
+      "avg_payout": 15071169405.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 2500,
+      "races": 5,
+      "avg_payout": 5432714800.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 2200,
+      "races": 6,
+      "avg_payout": 2964691783.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 1300,
+      "races": 26,
+      "avg_payout": 1455451565.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 4300,
+      "races": 3,
+      "avg_payout": 1339208733.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 1600,
+      "races": 29,
+      "avg_payout": 1284565048.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "中山",
+      "surface": "",
+      "distance": null,
+      "races": 40,
+      "avg_payout": 1255060485.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": 1400,
+      "races": 3,
+      "avg_payout": 1099315367.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "京都",
+      "surface": "",
+      "distance": null,
+      "races": 18,
+      "avg_payout": 961749489.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "中山",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 168,
+      "avg_payout": 696658449.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "札幌",
+      "surface": "",
+      "distance": null,
+      "races": 9,
+      "avg_payout": 665857100.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "京都",
+      "surface": "芝",
+      "distance": 1200,
+      "races": 71,
+      "avg_payout": 603423339.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "東京",
+      "surface": "",
+      "distance": null,
+      "races": 56,
+      "avg_payout": 591446513.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "中京",
+      "surface": "",
+      "distance": null,
+      "races": 6,
+      "avg_payout": 523506233.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 1200,
+      "races": 102,
+      "avg_payout": 486378812.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "中山",
+      "surface": "ダート",
+      "distance": 2400,
+      "races": 10,
+      "avg_payout": 484175220.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "東京",
+      "surface": "芝",
+      "distance": 1400,
+      "races": 146,
+      "avg_payout": 482576532.0,
+      "pct_100k": 100.0
+    },
+    {
+      "track": "新潟",
+      "surface": "芝",
+      "distance": 1000,
+      "races": 21,
+      "avg_payout": 469830200.0,
+      "pct_100k": 100.0
+    }
+  ]
 }
