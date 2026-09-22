@@ -37,7 +37,7 @@ sections={
 }
 for fn,(title,lead,active) in sections.items():
     if fn=='jockeys.html':
-        content='<section class="panel"><div class="section-head"><h2>騎手一覧</h2><input class="search" placeholder="騎手名を検索"></div><div class="directory">'+''.join(f'<a class="card" href="jockey.html?j={x}"><strong>騎手{x}</strong><span class="mini">詳細データ →</span></a>' for x in 'ABCDEFGHIJKL')+'</div></section>'
+        content='''<section class="panel"><div class="section-head"><h2>騎手一覧</h2><input id="jockey-search" class="search" placeholder="騎手名を検索"></div><p class="muted">実データから直近12か月の騎乗実績がある騎手を優先表示します。</p><div id="jockey-directory" class="directory"><div class="empty">騎手データを読み込み中…</div></div></section>'''
     elif fn=='courses.html':
         content='<section class="panel"><h2>主要コース</h2><div class="directory">'+''.join(f'<a class="card" href="course.html?course={c}"><strong>{c}</strong><span class="mini">全競馬場から比較 →</span></a>' for c in courses)+'</div></section>'
     elif fn=='holes.html':
