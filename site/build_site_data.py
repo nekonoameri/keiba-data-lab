@@ -22,7 +22,10 @@ coverage=dict(con.execute("SELECT MIN(race_date),MAX(race_date),COUNT(*) FROM ra
 mn,mx,rc=con.execute("SELECT MIN(race_date),MAX(race_date),COUNT(*) FROM races WHERE race_date IS NOT NULL AND race_date<=?",(TODAY,)).fetchone()
 rn=con.execute("SELECT COUNT(*) FROM runners u JOIN races r ON r.race_id=u.race_id WHERE r.race_date<=?",(TODAY,)).fetchone()[0]
 recent=[dict(x) for x in con.execute("""SELECT race_id,race_date,track,race_no,race_name,surface,distance,going,trifecta_payout,source_url FROM races WHERE race_date IS NOT NULL AND race_date<=? AND (distance IS NULL OR distance BETWEEN 800 AND 4000) ORDER BY race_date DESC,race_no DESC LIMIT 120""",(TODAY,))]
-out={'meta':{'min_date':mn,'max_date':mx,'race_count':rc,'runner_count':rn},'recent_races':recent,'wild_races':wild,'jockey_rankings':jockey,'courses':course,'wild_conditions':conditions}
+# Current-day data is intentionally separated from historical aggregates.
+# current_jockeys is populated only from same-day race-card rows when such rows are present.
+current_jockeys=[x['jockey'] for x in con.execute("""SELECT DISTINCT u.jockey AS jockey FROM runners u JOIN races r ON r.race_id=u.race_id WHERE r.race_date=? AND u.jockey<>'' ORDER BY u.jockey""",(TODAY,))]
+out={'current_jockeys':current_jockeys,'meta':{'min_date':mn,'max_date':mx,'race_count':rc,'runner_count':rn},'recent_races':recent,'wild_races':wild,'jockey_rankings':jockey,'courses':course,'wild_conditions':conditions}
 (root/'site-data.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 (root/'site-data.js').write_text('window.KEIBA_DATA='+json.dumps(out,ensure_ascii=False)+';',encoding='utf-8')
 print('wrote site-data.json + site-data.js')
