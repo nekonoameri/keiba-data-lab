@@ -4,6 +4,8 @@ Only public PDF links found on the requested JRA page are followed. Existing fil
 """
 from __future__ import annotations
 import argparse, re, time
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from pathlib import Path
 from urllib.parse import urljoin
 import requests
@@ -12,9 +14,17 @@ from bs4 import BeautifulSoup
 BASE='https://www.jra.go.jp'
 UA='KEIBA-DATA-LAB/0.12 (+local research prototype; respectful sequential fetch)'
 
+def session():
+    s=requests.Session()
+    retry=Retry(total=5,connect=5,read=5,backoff_factor=2,status_forcelist=(429,500,502,503,504),allowed_methods=frozenset(['GET']))
+    s.mount('https://',HTTPAdapter(max_retries=retry))
+    s.headers.update({'User-Agent':UA})
+    return s
+HTTP=session()
+
 def discover(year:int):
     url=f'{BASE}/datafile/seiseki/report/{year}.html'
-    r=requests.get(url,headers={'User-Agent':UA},timeout=30); r.raise_for_status()
+    r=HTTP.get(url,timeout=30); r.raise_for_status()
     if not r.encoding or r.encoding.lower() in ('iso-8859-1','ascii'):
         r.encoding=r.apparent_encoding
     soup=BeautifulSoup(r.text,'html.parser')
@@ -50,7 +60,11 @@ def main():
             print(f'[{i}/{len(items)}] skip {name}'); continue
         print(f'[{i}/{len(items)}] {name} {label}')
         if a.dry_run: continue
-        rr=requests.get(url,headers={'User-Agent':UA},timeout=60); rr.raise_for_status()
+        try:
+            rr=HTTP.get(url,timeout=60); rr.raise_for_status()
+        except requests.RequestException as e:
+            print(f'WARN download failed after retries: {name}: {e}')
+            continue
         if 'pdf' not in rr.headers.get('content-type','').lower() and not rr.content.startswith(b'%PDF'):
             raise RuntimeError(f'Not a PDF: {url}')
         dst.write_bytes(rr.content)
