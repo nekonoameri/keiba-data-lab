@@ -17,7 +17,7 @@ def norm(s): return s.translate(FW).replace('\u3000',' ').replace('，',',').rep
 def _text_score(s):
     if not s: return -1
     tokens=('競走','発走','中山','東京','阪神','京都','中京','札幌','函館','福島','新潟','小倉','3連単')
-    return sum(s.count(t) for t in tokens) + 20*len(re.findall(r'第\\s*(?:1[0-2]|[1-9])\\s*競走',s))
+    return sum(s.count(t) for t in tokens) + 20*len(re.findall(r'第\s*(?:1[0-2]|[1-9])\s*競走',s))
 
 def pdf_text(path):
     """Try independent PDF engines and keep the extraction that best matches JRA race text."""
@@ -49,29 +49,29 @@ def race_chunks(text,path=None):
     fallback_track=''
     if path is not None:
         fn=Path(path).name.lower()
-        ym=re.match(r'(20\\d{2})-',fn)
+        ym=re.match(r'(20\d{2})-',fn)
         if ym: fallback_year=ym.group(1)
         track_map={'sapporo':'札幌','hakodate':'函館','fukushima':'福島','niigata':'新潟','tokyo':'東京','nakayama':'中山','chukyo':'中京','kyoto':'京都','hanshin':'阪神','kokura':'小倉'}
         fallback_track=next((jp for en,jp in track_map.items() if en in fn),'')
-    race_pat=re.compile(r'(?:第\\s*)?(?P<r>1[0-2]|[1-9])\\s*(?:競走|レース|Ｒ|R|race)(?![A-Za-z0-9])',re.I)
+    race_pat=re.compile(r'(?:第\s*)?(?P<r>1[0-2]|[1-9])\s*(?:競走|レース|Ｒ|R|race)(?![A-Za-z0-9])',re.I)
     ms=list(race_pat.finditer(text))
     if not ms:
         # Last-resort layout: JRA result PDFs can extract the race number as a
         # standalone digit immediately before the start-time/header block.
-        alt=re.compile(r'(?m)^\\s*(?P<r>1[0-2]|[1-9])\\s*$')
+        alt=re.compile(r'(?m)^\s*(?P<r>1[0-2]|[1-9])\s*$')
         ms=[m for m in alt.finditer(text) if re.search(r'発走|芝|ダート|障害',text[m.end():m.end()+500])]
     if not ms:
-        sample=re.sub(r'\\s+',' ',text[:1200])
+        sample=re.sub(r'\s+',' ',text[:1200])
         print(f'WARN no race anchors; sample={sample[:1000]}',file=sys.stderr)
     for i,m in enumerate(ms):
         left=text[max(0,m.start()-1800):m.start()]
-        dm=list(re.finditer(r'(?P<m>\\d{1,2})月(?P<d>\\d{1,2})日',left))
-        ym=list(re.finditer(r'(?P<year>20\\d{2})年',left))
+        dm=list(re.finditer(r'(?P<m>\d{1,2})月(?P<d>\d{1,2})日',left))
+        ym=list(re.finditer(r'(?P<year>20\d{2})年',left))
         tm=list(re.finditer(r'(?P<track>'+TRACKS+r')',left))
         if not dm:
             # Some annual-result PDFs suppress the date around individual race
             # anchors. Use the first date found in the document/page context.
-            all_dm=list(re.finditer(r'(?P<m>\\d{1,2})月(?P<d>\\d{1,2})日',text))
+            all_dm=list(re.finditer(r'(?P<m>\d{1,2})月(?P<d>\d{1,2})日',text))
             if not all_dm: continue
             dm=all_dm
         year=ym[-1].group('year') if ym else fallback_year
