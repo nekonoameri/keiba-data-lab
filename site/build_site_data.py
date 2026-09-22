@@ -3,6 +3,7 @@ import sqlite3,json
 from pathlib import Path
 root=Path(__file__).resolve().parent; con=sqlite3.connect(root/'keiba.db');con.row_factory=sqlite3.Row
 # Public results must never expose future-dated rows. GitHub Actions may ingest malformed PDF dates, so cap all site aggregates at build time.
+# Current jockey rankings use a rolling 12-month window so retired riders do not dominate current-facing pages.
 from datetime import date\nTODAY=date.today().isoformat()
 VALID="race_date IS NOT NULL AND race_date<=?"
 wild=[dict(x) for x in con.execute('''SELECT r.race_id,r.race_date,r.track,r.race_no,r.race_name,r.surface,r.distance,r.trifecta_payout,
