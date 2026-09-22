@@ -5,4 +5,6 @@ set(tables.find(t=>/今週の騎手ランキング/.test(t.closest('.panel')?.in
 set(tables.find(t=>/荒れやすいレース条件/.test(t.closest('.panel')?.innerText||'')),c.slice(0,5).map((x,i)=>'<tr><td>'+(i+1)+'</td><td>'+e(x.track)+' '+e(x.surface)+e(x.distance)+'m</td><td class="score">10万超 '+e(x.pct_100k)+'%</td></tr>'));
 const h=j.filter(x=>Number(x.avg_popularity)>=4).sort((a,b)=>Number(b.longshot_place_rate)-Number(a.longshot_place_rate)||Number(b.rides)-Number(a.rides));
 set(tables.find(t=>/今週の穴騎手ランキング/.test(t.closest('.panel')?.innerText||'')),h.slice(0,10).map((x,i)=>'<tr><td class="rank">'+(i+1)+'</td><td>'+e(x.jockey)+'</td><td class="money">7人気+複勝 '+e(x.longshot_place_rate)+'%</td><td>'+e(x.place_rate)+'%</td></tr>'));
+
+const dir=document.getElementById('jockey-directory'),qs=document.getElementById('jockey-search');if(dir){const all=j.slice().sort((a,b)=>Number(b.rides)-Number(a.rides));const render=q=>{q=(q||'').trim();const rows=all.filter(x=>!q||String(x.jockey).includes(q)).slice(0,120);dir.innerHTML=rows.length?rows.map(x=>'<a class="card" href="jockey.html?j='+encodeURIComponent(x.jockey)+'"><strong>'+e(x.jockey)+'</strong><span class="mini">'+Number(x.rides||0).toLocaleString()+'騎乗 / 勝率 '+e(x.win_rate)+'% / 複勝率 '+e(x.place_rate)+'% →</span></a>').join(''):'<div class="empty">該当する騎手がいません。</div>'};render('');qs&&qs.addEventListener('input',()=>render(qs.value));}
 })();
