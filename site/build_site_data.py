@@ -9,14 +9,22 @@ TODAY=date.today().isoformat()
 ACTIVE_SINCE=(date.today()-timedelta(days=56)).isoformat()
 VALID="race_date IS NOT NULL AND race_date<=?"
 MAX_TRIFECTA=58367060
+# Reject clearly malformed jockey labels from current-facing rankings. Historical source rows remain untouched for audit/reparse.
+BAD_JOCKEY_EXACT={'岩田','木幡'}
+def valid_jockey_name(s):
+    s=(s or '').strip()
+    if not s or s in BAD_JOCKEY_EXACT: return False
+    # PDF extraction sometimes glues the jockey to adjacent owner/trainer text; abnormally long labels are not valid jockey names.
+    compact=s.replace(' ','').replace('\u3000','')
+    return 1 < len(compact) <= 8
 wild=[dict(x) for x in con.execute('''SELECT r.race_id,r.race_date,r.track,r.race_no,r.race_name,r.surface,r.distance,r.trifecta_payout,
  (SELECT GROUP_CONCAT(popularity,' → ') FROM (SELECT popularity FROM runners u WHERE u.race_id=r.race_id AND u.finish<=3 ORDER BY finish)) popularity_top3
  FROM races r WHERE r.trifecta_payout BETWEEN 100 AND ? AND r.race_date<=? ORDER BY r.trifecta_payout DESC LIMIT 10''',(MAX_TRIFECTA,TODAY))]
 # Build an allowlist from jockeys who have actually ridden in recent JRA results.
 # This prevents historical/retired names (e.g. 岡部幸雄) from leaking into current-facing rankings.
-active_jockeys={x['jockey'] for x in con.execute("""SELECT DISTINCT u.jockey AS jockey FROM runners u JOIN races r ON r.race_id=u.race_id WHERE u.jockey<>'' AND r.race_date BETWEEN ? AND ?""",(ACTIVE_SINCE,TODAY))}
+active_jockeys={x['jockey'] for x in con.execute("""SELECT DISTINCT u.jockey AS jockey FROM runners u JOIN races r ON r.race_id=u.race_id WHERE u.jockey<>'' AND r.race_date BETWEEN ? AND ?""",(ACTIVE_SINCE,TODAY)) if valid_jockey_name(x['jockey'])}
 jockey_all=[dict(x) for x in con.execute("""SELECT u.jockey AS jockey,COUNT(*) rides,SUM(u.finish=1) wins,SUM(u.finish=2) seconds,SUM(u.finish=3) thirds,ROUND(100.0*SUM(u.finish=1)/COUNT(*),1) win_rate,ROUND(100.0*SUM(u.finish<=2)/COUNT(*),1) top2_rate,ROUND(100.0*SUM(u.finish<=3)/COUNT(*),1) place_rate,ROUND(AVG(u.popularity),1) avg_popularity,ROUND(100.0*SUM(CASE WHEN u.popularity>=7 AND u.finish<=3 THEN 1 ELSE 0 END)/NULLIF(SUM(CASE WHEN u.popularity>=7 THEN 1 ELSE 0 END),0),1) longshot_place_rate,SUM(CASE WHEN u.popularity>=7 THEN 1 ELSE 0 END) longshot_rides,ROUND(AVG(CASE WHEN u.popularity IS NOT NULL THEN u.popularity-u.finish END),2) popularity_gain FROM runners u JOIN races r ON r.race_id=u.race_id WHERE u.jockey<>'' AND r.race_date>=date(strftime('%Y',?)||'-01-01') AND r.race_date<=? GROUP BY u.jockey HAVING COUNT(*)>=10 ORDER BY wins DESC,seconds DESC,thirds DESC""",(TODAY,TODAY))]
-jockey=[x for x in jockey_all if x['jockey'] in active_jockeys][:200]
+jockey=[x for x in jockey_all if x['jockey'] in active_jockeys and valid_jockey_name(x['jockey'])][:200]
 course=[dict(x) for x in con.execute('''SELECT r.track,r.surface,r.distance,COUNT(*) races,ROUND(AVG(CASE WHEN r.trifecta_payout BETWEEN 100 AND 58367060 THEN r.trifecta_payout END)) avg_trifecta,CASE WHEN SUM((SELECT COUNT(*) FROM runners u WHERE u.race_id=r.race_id AND u.popularity IS NOT NULL))>0 THEN ROUND(100.0*AVG(CASE WHEN EXISTS(SELECT 1 FROM runners u WHERE u.race_id=r.race_id AND u.finish<=3 AND u.popularity>=7) THEN 1 ELSE 0 END),1) ELSE NULL END longshot_place_pct FROM races r WHERE r.race_date<=? AND r.track IN ('札幌','函館','福島','新潟','東京','中山','中京','京都','阪神','小倉') AND r.surface IN ('芝','ダート','障害') AND r.distance BETWEEN 800 AND 4000 GROUP BY r.track,r.surface,r.distance ORDER BY races DESC''',(TODAY,))]
 conditions=[dict(x) for x in con.execute('''SELECT track,surface,distance,COUNT(*) races,ROUND(AVG(trifecta_payout)) avg_payout,ROUND(100.0*AVG(trifecta_payout>=100000),1) pct_100k FROM races WHERE trifecta_payout BETWEEN 100 AND ? AND race_date<=? AND track IN ('札幌','函館','福島','新潟','東京','中山','中京','京都','阪神','小倉') AND surface IN ('芝','ダート','障害') AND distance BETWEEN 800 AND 4000 GROUP BY track,surface,distance HAVING COUNT(*)>=3 ORDER BY pct_100k DESC,avg_payout DESC LIMIT 20''',(MAX_TRIFECTA,TODAY))]
 for x in wild:
