@@ -104,6 +104,10 @@ def parse_runners(chunk,race_id):
         tail=ln[m.end():]
         jm=re.search(r'\b(?:4[89]|5\d|60)(?:\s+\d{2})?\s+(?:[▲△◇]\s*)?(?P<j>[一-龥ァ-ヶA-Za-zＭ．M\.]+(?:\s*[一-龥ァ-ヶA-Za-z]+){0,2})\s+',tail)
         jockey=(jm.group('j').strip() if jm else '')
+        # Guard against PDF column-merging: a jockey label must stay compact. If extraction glues adjacent owner/trainer text, leave it blank for later enrichment from official HTML rather than corrupting the DB.
+        compact_jockey=re.sub(r'[\\s　]+','',jockey)
+        if len(compact_jockey)>8 or len(compact_jockey)<2:
+            jockey=''
         # Time appears as M:SS.d; non-finishers get blank.
         tm=re.search(r'(\d:\d{2}\.\d)',ln)
         rows.append(dict(race_id=race_id,finish=len(rows)+1,frame_no=int(m.group('frame')),horse_no=int(m.group('horse')),
