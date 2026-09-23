@@ -9,7 +9,7 @@ on:
       - "site/build_site_data.py"
   workflow_dispatch:
   schedule:
-    - cron: "30 12 * * 0"
+    # Race-day refreshes (JST 09:15, 12:15, 15:15, 18:15) on Saturdays/Sundays.\n    - cron: "15 0,3,6,9 * * 6,0"
 
 permissions:
   contents: write
